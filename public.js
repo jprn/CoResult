@@ -302,7 +302,6 @@ function startAutoScroll() {
   const inner = document.getElementById("resultsInner");
   if (!container || !inner) return;
 
-  let direction = 1; // 1 vers le bas, -1 vers le haut
   const step = 1; // pixels
   const interval = 40; // ms
 
@@ -310,15 +309,14 @@ function startAutoScroll() {
     const maxScroll = inner.scrollHeight - container.clientHeight;
     if (maxScroll <= 0) return;
 
-    const delta = direction * step * autoScrollSpeedFactor;
+    const delta = step * autoScrollSpeedFactor;
     let current = container.scrollTop + delta;
+
+    // Quand on atteint (ou dépasse) la fin, on repart du début
     if (current >= maxScroll) {
-      current = maxScroll;
-      direction = -1;
-    } else if (current <= 0) {
       current = 0;
-      direction = 1;
     }
+
     container.scrollTop = current;
   }, interval);
 }
