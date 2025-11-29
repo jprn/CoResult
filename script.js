@@ -583,23 +583,43 @@ function escapeHtml(str) {
 function onValidateAdminClick() {
   if (!globalPublicUrl) {
     if (validateAdminStatus) {
-      validateAdminStatus.textContent = "Aucune course sélectionnée à valider.";
+      validateAdminStatus.textContent = "Aucune course sélectionnée. Choisissez une course pour générer l’URL publique.";
     }
     return;
   }
 
-  const msg = `Valider la course actuellement sélectionnée ?\n\nPage publique :\n${globalPublicUrl}`;
-  const ok = window.confirm(msg);
-  if (!ok) {
-    if (validateAdminStatus) {
-      validateAdminStatus.textContent = "Validation annulée.";
-    }
-    return;
-  }
+  const textToCopy = globalPublicUrl;
 
-  if (validateAdminStatus) {
-    const now = new Date();
-    const timeStr = now.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    validateAdminStatus.textContent = `Course validée à ${timeStr}. URL publique : ${globalPublicUrl}`;
+  // Utiliser l’API moderne du presse-papiers si disponible
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(textToCopy)
+      .then(() => {
+        if (validateAdminStatus) {
+          validateAdminStatus.textContent = "URL publique copiée dans le presse-papiers.";
+        }
+      })
+      .catch(() => {
+        if (validateAdminStatus) {
+          validateAdminStatus.textContent = `Impossible de copier automatiquement. URL : ${textToCopy}`;
+        }
+      });
+  } else {
+    // Fallback pour anciens navigateurs
+    const tmp = document.createElement('input');
+    tmp.type = 'text';
+    tmp.value = textToCopy;
+    document.body.appendChild(tmp);
+    tmp.select();
+    try {
+      document.execCommand('copy');
+      if (validateAdminStatus) {
+        validateAdminStatus.textContent = "URL publique copiée dans le presse-papiers.";
+      }
+    } catch (e) {
+      if (validateAdminStatus) {
+        validateAdminStatus.textContent = `Impossible de copier automatiquement. URL : ${textToCopy}`;
+      }
+    }
+    document.body.removeChild(tmp);
   }
 }
