@@ -339,16 +339,20 @@ function initBalises() {
   }
 
   const balises = Array.from(document.querySelectorAll('.balise'));
+  // Découper les balises en plusieurs groupes pour lancer plusieurs feux d'artifice en parallèle
+  const groupCount = 3;
+  const groupSize = Math.ceil(balises.length / groupCount);
 
-  function launchFireworksCycle() {
+  function launchFireworksCycleForGroup(group) {
+    if (!group.length) return;
+
     // Centre d'explosion aléatoire (partie supérieure de l'écran)
     const centerX = 30 + Math.random() * 40; // 30-70 vw
     const centerY = 5 + Math.random() * 25;  // 5-30 vh, zone haute
 
-    // Phase 1 : départ en colonne verticale depuis le bas
+    // Phase 1 : départ en colonne verticale depuis le bas pour ce groupe
     const verticalSpacing = 6; // écart en vh
-    balises.forEach((b, index) => {
-      // même X pour tous, Y différents
+    group.forEach((b, index) => {
       const yOffset = index * verticalSpacing;
       b.style.transition = 'none';
       b.style.transform = `translate(${centerX}vw, ${110 + yOffset}vh)`;
@@ -357,8 +361,8 @@ function initBalises() {
 
     // Petite pause avant le décollage
     setTimeout(() => {
-      // Phase 2 : montée alignée vers le milieu
-      balises.forEach(b => {
+      // Phase 2 : montée alignée vers le centre
+      group.forEach(b => {
         const duration = 2500 + Math.random() * 700; // 2.5-3.2s
         b.style.transition = `transform ${duration}ms ease-out`;
         b.style.transform = `translate(${centerX}vw, ${centerY}vh)`;
@@ -366,10 +370,10 @@ function initBalises() {
 
       // Phase 3 : éclatement autour du centre
       setTimeout(() => {
-        balises.forEach(b => {
+        group.forEach(b => {
           const duration = 1800 + Math.random() * 800; // 1.8-2.6s
           const angle = Math.random() * Math.PI * 2;
-          const radius = 35 + Math.random() * 35; // 25-50vw, éclatement encore plus large
+          const radius = 35 + Math.random() * 35; // 35-70vw, éclatement large
           const dx = Math.cos(angle) * radius;
           const dy = Math.sin(angle) * radius;
           b.style.transition = `transform ${duration}ms ease-out, opacity 1200ms ease-out`;
@@ -377,15 +381,21 @@ function initBalises() {
           b.style.opacity = '0';
         });
 
-        // Phase 4 : reset et nouveau cycle
+        // Phase 4 : reset et nouveau cycle pour ce groupe uniquement
         setTimeout(() => {
-          launchFireworksCycle();
-        }, 2600);
+          launchFireworksCycleForGroup(group);
+        }, 2600 + Math.random() * 1000); // léger décalage aléatoire
       }, 2600);
-    }, 400);
+    }, 400 + Math.random() * 600);
   }
 
-  launchFireworksCycle();
+  for (let g = 0; g < groupCount; g++) {
+    const start = g * groupSize;
+    const end = start + groupSize;
+    const group = balises.slice(start, end);
+    // Démarrage légèrement décalé pour chaque groupe
+    setTimeout(() => launchFireworksCycleForGroup(group), g * 800);
+  }
 }
 
 // Lancer immédiatement les balises au chargement, indépendamment du XML
