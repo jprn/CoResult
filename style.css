@@ -325,12 +325,42 @@ select {
 
 .balise {
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 26px;
+  height: 32px;
   border-radius: 3px;
-  border: 2px solid rgba(255, 138, 60, 0.9);
-  background: rgba(255, 138, 60, 0.25);
-  box-shadow: 0 0 8px rgba(255, 138, 60, 0.7);
+  border: 2px solid #ff7a1a;
+  background:
+    /* face avant orange / blanche en diagonale */
+    linear-gradient(135deg, #ff7a1a 0 50%, #ffffff 50% 100%);
+  box-shadow: 0 0 8px rgba(255, 138, 60, 0.6);
+  transform-origin: 50% 0%;
+}
+
+.balise::before {
+  /* face latérale orange à gauche */
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 4px;
+  width: 12px;
+  height: 24px;
+  background: linear-gradient(135deg, #ff7a1a 0 60%, #ffffff 60% 100%);
+  border-left: 2px solid #ff7a1a;
+  border-bottom: 2px solid #ff7a1a;
+  border-bottom-left-radius: 3px;
+  opacity: 0.95;
+}
+
+.balise::after {
+  /* petit fil au-dessus de la balise */
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -18px;
+  width: 1px;
+  height: 18px;
+  background: rgba(220, 220, 220, 0.9);
+  transform: translateX(-50%);
 }
 
 /* Bouton global splits */
