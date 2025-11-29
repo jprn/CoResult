@@ -495,7 +495,8 @@ function initBalises() {
       b.style.transform = `translate(${centerX}vw, ${
         110 + yOffset
       }vh)`;
-      b.style.opacity = "1";
+      // Opacité réduite pour garder l'effet "derrière le tableau"
+      b.style.opacity = "0.25";
     });
 
     // Montée vers le centre
