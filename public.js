@@ -7,6 +7,7 @@ const eventInfoContainer = document.getElementById("eventInfo");
 // État global
 let globalClassResults = [];
 let autoScrollSpeedFactor = 1; // 0.5 = lent, 1 = normal, 2 = rapide
+let autoScrollDirection = 1; // 1 vers le bas, -1 vers le haut
 let balisePaused = false;
 
 // ------------------------
@@ -118,8 +119,9 @@ function renderFromResultList(xmlDoc) {
 
   // Construire un tableau unique (type "mur de résultats")
   let html = "";
+  const classOptions = [];
 
-  classResults.forEach((classResult) => {
+  classResults.forEach((classResult, classIndex) => {
     const classNode = classResult.getElementsByTagName("Class")[0];
     const className = classNode
       ? textContent(classNode, "Name")
@@ -130,6 +132,13 @@ function renderFromResultList(xmlDoc) {
       classResult.getElementsByTagName("PersonResult")
     );
     if (!personResults.length) return;
+
+    // Stocker l'option de catégorie pour le sélecteur
+    classOptions.push({
+      index: classIndex,
+      label: className,
+      meta: classId,
+    });
 
     // Préparer les lignes
     let runners = personResults.map((pr, idx) => {
@@ -195,7 +204,8 @@ function renderFromResultList(xmlDoc) {
     // Tri : même logique que côté admin (status + temps)
     runners.sort(compareRunnersSimple);
 
-    html += '<div class="class-block">';
+    // ID unique pour permettre le scroll direct vers une catégorie
+    html += `<div class="class-block" id="class-block-${classIndex}">`;
     html += '  <div class="class-title">';
     html += `    <span>${escapeHtml(className)}</span>`;
     html += `    <span class="class-meta">${escapeHtml(
@@ -264,7 +274,77 @@ function renderFromResultList(xmlDoc) {
     resultsContainer.innerHTML =
       '<div class="no-results">Aucun coureur à afficher.</div>';
   } else {
-    resultsContainer.innerHTML = html;
+    // Bloc sélecteur de catégories + indicateur de sens de défilement
+    let selectorHtml = "";
+    if (classOptions.length) {
+      selectorHtml += '<div class="class-selector">';
+      selectorHtml +=
+        '<div class="scroll-indicator" title="Défilement vers le bas">' +
+        '<span class="arrow up">&#9650;</span>' +
+        '<span class="arrow down active">&#9660;</span>' +
+        "</div>";
+      selectorHtml += '<label for="classSelect">Catégorie :</label>';
+      selectorHtml += '<select id="classSelect">';
+      selectorHtml +=
+        '<option value="">Toutes les catégories</option>';
+      classOptions.forEach((opt) => {
+        const meta = opt.meta ? ` (${escapeHtml(opt.meta)})` : "";
+        selectorHtml += `<option value="${opt.index}">${escapeHtml(
+          opt.label
+        )}${meta}</option>`;
+      });
+      selectorHtml += "</select>";
+      selectorHtml += "</div>";
+    }
+
+    resultsContainer.innerHTML = selectorHtml + html;
+  }
+
+  // Écouteur sur le sélecteur de catégories pour scroller vers la bonne section
+  const classSelect = document.getElementById("classSelect");
+  const container = document.querySelector(".auto-scroll-container");
+  if (classSelect && container) {
+    classSelect.addEventListener("change", (e) => {
+      const value = e.target.value;
+      if (value === "") {
+        // Retour en haut : toutes catégories
+        container.scrollTop = 0;
+        return;
+      }
+
+      const index = parseInt(value, 10);
+      if (isNaN(index)) return;
+
+      const block = document.getElementById(`class-block-${index}`);
+      if (!block) return;
+
+      const maxScroll =
+        resultsContainer.scrollHeight - container.clientHeight;
+      let target = block.offsetTop;
+      if (target > maxScroll) target = maxScroll;
+      container.scrollTop = target;
+    });
+  }
+
+   // Gestion des clics sur les flèches de direction
+  const scrollIndicator = document.querySelector(".scroll-indicator");
+  if (scrollIndicator) {
+    const arrowUp = scrollIndicator.querySelector(".arrow.up");
+    const arrowDown = scrollIndicator.querySelector(".arrow.down");
+
+    if (arrowUp && arrowDown) {
+      arrowUp.addEventListener("click", () => {
+        autoScrollDirection = -1;
+        arrowUp.classList.add("active");
+        arrowDown.classList.remove("active");
+      });
+
+      arrowDown.addEventListener("click", () => {
+        autoScrollDirection = 1;
+        arrowDown.classList.add("active");
+        arrowUp.classList.remove("active");
+      });
+    }
   }
 
   // Lancer/mettre à jour les balises
@@ -308,13 +388,17 @@ function startAutoScroll() {
   setInterval(() => {
     const maxScroll = inner.scrollHeight - container.clientHeight;
     if (maxScroll <= 0) return;
+    if (autoScrollSpeedFactor === 0) return;
 
-    const delta = step * autoScrollSpeedFactor;
+    const direction = autoScrollDirection || 1;
+    const delta = step * autoScrollSpeedFactor * direction;
     let current = container.scrollTop + delta;
 
-    // Quand on atteint (ou dépasse) la fin, on repart du début
-    if (current >= maxScroll) {
+    // Quand on atteint une extrémité, on repart de l'autre côté
+    if (direction > 0 && current >= maxScroll) {
       current = 0;
+    } else if (direction < 0 && current <= 0) {
+      current = maxScroll;
     }
 
     container.scrollTop = current;
