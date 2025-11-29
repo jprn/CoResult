@@ -469,6 +469,12 @@ select {
     display: none;
   }
 
+  /* Sur la page index (tableau principal sans auto-scroll),
+     masquer aussi explicitement l'en-tête "Départ" (5e colonne) */
+  #results.card:not(.auto-scroll-container) thead th:nth-child(5) {
+    display: none;
+  }
+
   .card {
     padding: 1.1rem 1.15rem;
   }
