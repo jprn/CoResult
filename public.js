@@ -307,8 +307,8 @@ function startAutoScroll() {
   if (!container || !inner) return;
 
   let direction = 1; // 1 vers le bas, -1 vers le haut
-  const step = 0.5; // pixels
-  const interval = 80; // ms (plus lent)
+  const step = 1; // pixels
+  const interval = 40; // ms
 
   setInterval(() => {
     const maxScroll = inner.scrollHeight - container.clientHeight;
