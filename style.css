@@ -351,18 +351,6 @@ select {
   opacity: 0.95;
 }
 
-.balise::after {
-  /* petit fil au-dessus de la balise */
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: -18px;
-  width: 1px;
-  height: 18px;
-  background: rgba(220, 220, 220, 0.9);
-  transform: translateX(-50%);
-}
-
 /* Bouton global splits */
 .splits-controls {
   margin-bottom: 0.5rem;

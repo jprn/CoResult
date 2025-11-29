@@ -24,7 +24,7 @@ const statusOrder = {
   publicHeaderInfo.textContent = `Course chargée depuis le fichier ${fileName}`;
 
   // Sur Netlify, éviter les accents dans les chemins -> utiliser 'resultats/'
-  fetch(`resultats/${fileName}`)
+  fetch(`Resultats/${fileName}`)
     .then(resp => {
       if (!resp.ok) throw new Error('Impossible de charger le fichier XML');
       return resp.text();
@@ -37,7 +37,6 @@ const statusOrder = {
 
       renderFromResultList(xmlDoc);
       startAutoScroll();
-      initBalises();
     })
     .catch(err => {
       console.error(err);
@@ -84,12 +83,6 @@ function renderFromResultList(xmlDoc) {
   }
 
   let html = "";
-
-  html += `
-    <div class="splits-controls">
-      <button id="toggleAllSplits" class="btn-splits-all">Ouvrir tous les splits</button>
-    </div>
-  `;
 
   classResults.forEach(classResult => {
     const classNode = classResult.getElementsByTagName("Class")[0];
@@ -210,16 +203,12 @@ function renderFromResultList(xmlDoc) {
       const timeDisplay = r.timeSeconds > 0 ? formatTime(r.timeSeconds) : "";
       const rankDisplay = statusOk ? String(r.overallRank) : "";
 
-      const hasLegs = r.legs && r.legs.length > 0;
-      const rowId = hasLegs ? "splits-" + Math.random().toString(36).slice(2) : null;
-
       html += `
         <tr>
           <td class="col-rank">${escapeHtml(rankDisplay)}</td>
           <td>${escapeHtml(r.bib)}</td>
           <td>
             ${escapeHtml(r.fullName)}
-            ${hasLegs ? `<div class="splits-toggle" data-target="${rowId}">Voir les splits</div>` : ""}
           </td>
           <td>${escapeHtml(r.club)}</td>
           <td class="col-start">${escapeHtml(r.startTime)}</td>
@@ -233,65 +222,6 @@ function renderFromResultList(xmlDoc) {
         </tr>
       `;
 
-      if (hasLegs) {
-        const orderCells = r.legs.map((leg, idx) => `<td>${idx + 1}</td>`).join("");
-        const codeCells = r.legs.map(leg => {
-          const classes = [];
-          if (leg.isMissing) classes.push("split-missing");
-          const classAttr = classes.length ? ` class="${classes.join(" ")}"` : "";
-          return `<td${classAttr}>${escapeHtml(leg.code)}</td>`;
-        }).join("");
-
-        const timeCells = r.legs.map((leg, idx) => {
-          const formatted = formatTime(leg.legSeconds);
-          const isBest = bestLegTimes[idx] !== undefined && leg.legSeconds === bestLegTimes[idx];
-          const classes = [];
-          if (isBest) classes.push("split-best");
-          if (leg.isMissing) classes.push("split-missing");
-          const classAttr = classes.length ? ` class="${classes.join(" ")}"` : "";
-          return `<td${classAttr}>${escapeHtml(formatted)}</td>`;
-        }).join("");
-
-        const cumCells = r.legs.map(leg => {
-          const classes = [];
-          if (leg.isMissing) classes.push("split-missing");
-          const classAttr = classes.length ? ` class="${classes.join(" ")}"` : "";
-          return `<td${classAttr}>${escapeHtml(formatTime(leg.cumulative))}</td>`;
-        }).join("");
-
-        const splitsTableHtml = `
-          <table class="splits-table">
-            <tbody>
-              <tr>
-                <th>Ordre</th>
-                ${orderCells}
-              </tr>
-              <tr>
-                <th>Poste</th>
-                ${codeCells}
-              </tr>
-              <tr>
-                <th>Temps</th>
-                ${timeCells}
-              </tr>
-              <tr>
-                <th>Cumul</th>
-                ${cumCells}
-              </tr>
-            </tbody>
-          </table>
-        `;
-
-        html += `
-          <tr>
-            <td colspan="7">
-              <div class="splits" id="${rowId}">
-                ${splitsTableHtml}
-              </div>
-            </td>
-          </tr>
-        `;
-      }
     });
 
     html += `
@@ -305,36 +235,6 @@ function renderFromResultList(xmlDoc) {
     resultsContainer.innerHTML = '<div class="no-results">Aucun coureur à afficher.</div>';
   } else {
     resultsContainer.innerHTML = html;
-  }
-
-  // Activation des toggles individuels
-  document.querySelectorAll('.splits-toggle').forEach(toggle => {
-    toggle.addEventListener('click', () => {
-      const targetId = toggle.getAttribute('data-target');
-      const box = document.getElementById(targetId);
-      if (!box) return;
-      const visible = box.style.display === 'block';
-      box.style.display = visible ? 'none' : 'block';
-      toggle.textContent = visible ? 'Voir les splits' : 'Masquer les splits';
-    });
-  });
-
-  const toggleAllBtn = document.getElementById('toggleAllSplits');
-  if (toggleAllBtn) {
-    toggleAllBtn.addEventListener('click', () => {
-      const allSplits = Array.from(document.querySelectorAll('.splits'));
-      if (!allSplits.length) return;
-      const anyClosed = allSplits.some(s => s.style.display !== 'block');
-      if (anyClosed) {
-        allSplits.forEach(s => s.style.display = 'block');
-        document.querySelectorAll('.splits-toggle').forEach(t => { t.textContent = 'Masquer les splits'; });
-        toggleAllBtn.textContent = 'Fermer tous les splits';
-      } else {
-        allSplits.forEach(s => s.style.display = 'none');
-        document.querySelectorAll('.splits-toggle').forEach(t => { t.textContent = 'Voir les splits'; });
-        toggleAllBtn.textContent = 'Ouvrir tous les splits';
-      }
-    });
   }
 }
 
@@ -407,8 +307,8 @@ function startAutoScroll() {
   if (!container || !inner) return;
 
   let direction = 1; // 1 vers le bas, -1 vers le haut
-  const step = 1; // pixels
-  const interval = 40; // ms
+  const step = 0.5; // pixels
+  const interval = 80; // ms (plus lent)
 
   setInterval(() => {
     const maxScroll = inner.scrollHeight - container.clientHeight;
@@ -431,24 +331,65 @@ function initBalises() {
   const layer = document.getElementById('baliseLayer');
   if (!layer) return;
 
-  const count = 8;
+  const count = 10;
   for (let i = 0; i < count; i++) {
     const b = document.createElement('div');
     b.className = 'balise';
     layer.appendChild(b);
   }
 
-  function randomizePosition(el) {
-    const x = Math.random() * 100; // vw
-    const y = Math.random() * 100; // vh
-    const duration = 8 + Math.random() * 6; // 8-14s
-    el.style.transition = `transform ${duration}s linear`;
-    el.style.transform = `translate(${x}vw, ${y}vh)`;
+  const balises = Array.from(document.querySelectorAll('.balise'));
+
+  // Phase 1 : alignées en bas
+  function setStartPositions() {
+    const spacing = 100 / (balises.length + 1);
+    balises.forEach((b, index) => {
+      const x = spacing * (index + 1);
+      // Position de départ : légèrement sous le bas de l'écran
+      b.style.transition = 'none';
+      b.style.transform = `translate(${x}vw, 110vh)`;
+      b.style.opacity = '1';
+    });
   }
 
-  const balises = Array.from(document.querySelectorAll('.balise'));
-  balises.forEach(b => {
-    randomizePosition(b);
-    setInterval(() => randomizePosition(b), 10000 + Math.random() * 5000);
-  });
+  function launchFireworksCycle() {
+    setStartPositions();
+
+    // Petite pause avant le décollage
+    setTimeout(() => {
+      // Phase 2 : montée alignée vers le milieu
+      balises.forEach(b => {
+        const duration = 2500 + Math.random() * 700; // 2.5-3.2s
+        b.style.transition = `transform ${duration}ms ease-out`;
+        const current = b.style.transform;
+        const xMatch = /translate\(([^v]+)vw,/.exec(current);
+        const x = xMatch ? parseFloat(xMatch[1]) : 50;
+        b.style.transform = `translate(${x}vw, 55vh)`;
+      });
+
+      // Phase 3 : éclatement autour du centre
+      setTimeout(() => {
+        balises.forEach(b => {
+          const duration = 1800 + Math.random() * 800; // 1.8-2.6s
+          const angle = Math.random() * Math.PI * 2;
+          const radius = 10 + Math.random() * 12; // 10-22vw
+          const dx = Math.cos(angle) * radius;
+          const dy = Math.sin(angle) * radius;
+          b.style.transition = `transform ${duration}ms ease-out, opacity 1200ms ease-out`;
+          b.style.transform = `translate(${50 + dx}vw, ${50 + dy}vh)`;
+          b.style.opacity = '0';
+        });
+
+        // Phase 4 : reset et nouveau cycle
+        setTimeout(() => {
+          launchFireworksCycle();
+        }, 2600);
+      }, 2600);
+    }, 400);
+  }
+
+  launchFireworksCycle();
 }
+
+// Lancer immédiatement les balises au chargement, indépendamment du XML
+initBalises();
