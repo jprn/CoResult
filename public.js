@@ -82,7 +82,11 @@ function renderFromResultList(xmlDoc) {
     // Boutons de contrôle dans le bloc événement
     eventHtml += '<div class="public-controls">';
     eventHtml +=
-      '<button id="speedToggleBtn" class="btn-splits-all public-btn">Vitesse défilement : normale</button>';
+      '<button id="scrollPlayBtn" class="btn-splits-all public-btn public-btn-icon" title="Lecture">&#9658;</button>';
+    eventHtml +=
+      '<button id="scrollStopBtn" class="btn-splits-all public-btn public-btn-icon" title="Stop">&#9724;</button>';
+    eventHtml +=
+      '<button id="scrollFastBtn" class="btn-splits-all public-btn public-btn-icon" title="Avance rapide">&#9193;</button>';
     eventHtml +=
       '<button id="baliseToggleBtn" class="btn-splits-all public-btn">Arrêter les balises</button>';
     eventHtml += "</div>";
@@ -93,11 +97,38 @@ function renderFromResultList(xmlDoc) {
     eventInfoContainer.style.display = "block";
 
     // Brancher les handlers sur les boutons
-    const speedToggleBtn = document.getElementById("speedToggleBtn");
+    const playBtn = document.getElementById("scrollPlayBtn");
+    const stopBtn = document.getElementById("scrollStopBtn");
+    const fastBtn = document.getElementById("scrollFastBtn");
     const baliseToggleBtn = document.getElementById("baliseToggleBtn");
-    if (speedToggleBtn) {
-      speedToggleBtn.addEventListener("click", onSpeedToggleClick);
+
+    function updateScrollButtons(mode) {
+      if (!playBtn || !stopBtn || !fastBtn) return;
+      playBtn.classList.remove("active");
+      stopBtn.classList.remove("active");
+      fastBtn.classList.remove("active");
+
+      if (mode === "play") {
+        autoScrollSpeedFactor = 1;
+        playBtn.classList.add("active");
+      } else if (mode === "fast") {
+        autoScrollSpeedFactor = 3;
+        fastBtn.classList.add("active");
+      } else if (mode === "stop") {
+        autoScrollSpeedFactor = 0;
+        stopBtn.classList.add("active");
+      }
     }
+
+    if (playBtn && stopBtn && fastBtn) {
+      // État initial : lecture normale
+      updateScrollButtons("play");
+
+      playBtn.addEventListener("click", () => updateScrollButtons("play"));
+      fastBtn.addEventListener("click", () => updateScrollButtons("fast"));
+      stopBtn.addEventListener("click", () => updateScrollButtons("stop"));
+    }
+
     if (baliseToggleBtn) {
       baliseToggleBtn.addEventListener("click", onBaliseToggleClick);
     }
