@@ -331,7 +331,7 @@ function initBalises() {
   const layer = document.getElementById('baliseLayer');
   if (!layer) return;
 
-  const count = 10;
+  const count = 20;
   for (let i = 0; i < count; i++) {
     const b = document.createElement('div');
     b.className = 'balise';
@@ -369,7 +369,7 @@ function initBalises() {
         balises.forEach(b => {
           const duration = 1800 + Math.random() * 800; // 1.8-2.6s
           const angle = Math.random() * Math.PI * 2;
-          const radius = 10 + Math.random() * 12; // 10-22vw
+          const radius = 18 + Math.random() * 18; // 18-36vw, éclatement plus large
           const dx = Math.cos(angle) * radius;
           const dy = Math.sin(angle) * radius;
           b.style.transition = `transform ${duration}ms ease-out, opacity 1200ms ease-out`;
