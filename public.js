@@ -340,20 +340,20 @@ function initBalises() {
 
   const balises = Array.from(document.querySelectorAll('.balise'));
 
-  // Phase 1 : alignées en bas
-  function setStartPositions() {
-    const spacing = 100 / (balises.length + 1);
+  function launchFireworksCycle() {
+    // Centre d'explosion aléatoire (zone centrale de l'écran)
+    const centerX = 30 + Math.random() * 40; // 30-70 vw
+    const centerY = 35 + Math.random() * 20; // 35-55 vh
+
+    // Phase 1 : départ en colonne verticale depuis le bas
+    const verticalSpacing = 6; // écart en vh
     balises.forEach((b, index) => {
-      const x = spacing * (index + 1);
-      // Position de départ : légèrement sous le bas de l'écran
+      // même X pour tous, Y différents
+      const yOffset = index * verticalSpacing;
       b.style.transition = 'none';
-      b.style.transform = `translate(${x}vw, 110vh)`;
+      b.style.transform = `translate(${centerX}vw, ${110 + yOffset}vh)`;
       b.style.opacity = '1';
     });
-  }
-
-  function launchFireworksCycle() {
-    setStartPositions();
 
     // Petite pause avant le décollage
     setTimeout(() => {
@@ -361,10 +361,7 @@ function initBalises() {
       balises.forEach(b => {
         const duration = 2500 + Math.random() * 700; // 2.5-3.2s
         b.style.transition = `transform ${duration}ms ease-out`;
-        const current = b.style.transform;
-        const xMatch = /translate\(([^v]+)vw,/.exec(current);
-        const x = xMatch ? parseFloat(xMatch[1]) : 50;
-        b.style.transform = `translate(${x}vw, 55vh)`;
+        b.style.transform = `translate(${centerX}vw, ${centerY}vh)`;
       });
 
       // Phase 3 : éclatement autour du centre
@@ -376,7 +373,7 @@ function initBalises() {
           const dx = Math.cos(angle) * radius;
           const dy = Math.sin(angle) * radius;
           b.style.transition = `transform ${duration}ms ease-out, opacity 1200ms ease-out`;
-          b.style.transform = `translate(${50 + dx}vw, ${50 + dy}vh)`;
+          b.style.transform = `translate(${centerX + dx}vw, ${centerY + dy}vh)`;
           b.style.opacity = '0';
         });
 
