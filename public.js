@@ -409,12 +409,13 @@ function initBalises() {
 // Contrôles (boutons)
 // ------------------------
 function onSpeedToggleClick() {
+  // Cycle : normale (1) -> rapide (3) -> stop (0) -> normale
   if (autoScrollSpeedFactor === 1) {
-    autoScrollSpeedFactor = 2;
+    autoScrollSpeedFactor = 3; // plus rapide qu'avant
     this.textContent = "Vitesse défilement : rapide";
-  } else if (autoScrollSpeedFactor === 2) {
-    autoScrollSpeedFactor = 0.5;
-    this.textContent = "Vitesse défilement : lente";
+  } else if (autoScrollSpeedFactor === 3) {
+    autoScrollSpeedFactor = 0; // stop complet
+    this.textContent = "Vitesse défilement : stop";
   } else {
     autoScrollSpeedFactor = 1;
     this.textContent = "Vitesse défilement : normale";
