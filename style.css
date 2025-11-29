@@ -484,13 +484,26 @@ select {
 
   /* Tableau de résultats plus lisible sur téléphone */
   table {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
   }
 
   th,
   td {
-    padding: 0.45rem 0.5rem;
+    padding: 0.35rem 0.35rem;
     white-space: normal;
+  }
+
+  /* Réduire la largeur de Rg et réserver de la place au Temps/Statut */
+  .col-rank {
+    width: 2.2rem;
+  }
+
+  .col-time {
+    min-width: 3.2rem;
+  }
+
+  .col-status {
+    min-width: 3.4rem;
   }
 
   #results.card {
