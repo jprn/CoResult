@@ -371,8 +371,9 @@ select {
   background:
     /* face avant orange / blanche en diagonale */
     linear-gradient(135deg, #ff7a1a 0 50%, #ffffff 50% 100%);
-  box-shadow: 0 0 8px rgba(255, 138, 60, 0.6);
+  box-shadow: 0 0 8px rgba(255, 138, 60, 0.35);
   transform-origin: 50% 0%;
+  opacity: 0.45;
 }
 
 .balise::before {
@@ -387,7 +388,7 @@ select {
   border-left: 2px solid #ff7a1a;
   border-bottom: 2px solid #ff7a1a;
   border-bottom-left-radius: 3px;
-  opacity: 0.95;
+  opacity: 0.4;
 }
 
 /* Taille des balises adaptée à la taille d’écran */

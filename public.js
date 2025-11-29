@@ -81,14 +81,18 @@ function renderFromResultList(xmlDoc) {
 
     // Boutons de contrôle dans le bloc événement
     eventHtml += '<div class="public-controls">';
+    eventHtml += '  <div class="public-controls-top">';
     eventHtml +=
       '<button id="scrollPlayBtn" class="btn-splits-all public-btn public-btn-icon" title="Lecture">&#9658;</button>';
     eventHtml +=
       '<button id="scrollStopBtn" class="btn-splits-all public-btn public-btn-icon" title="Stop">&#9724;</button>';
     eventHtml +=
       '<button id="scrollFastBtn" class="btn-splits-all public-btn public-btn-icon" title="Avance rapide">&#9193;</button>';
+    eventHtml += "  </div>";
+    eventHtml += '  <div class="public-controls-bottom">';
     eventHtml +=
-      '<button id="baliseToggleBtn" class="btn-splits-all public-btn">Arrêter les balises</button>';
+      '<button id="baliseToggleBtn" class="btn-splits-all public-btn balise-btn">Arrêter les balises</button>';
+    eventHtml += "  </div>";
     eventHtml += "</div>";
 
     eventHtml += "</div>";
@@ -308,12 +312,12 @@ function renderFromResultList(xmlDoc) {
     resultsContainer.innerHTML = html;
   }
 
-  // Construire le sélecteur de catégories + flèches dans le bloc public-controls
-  const controls = document.querySelector(".public-controls");
+  // Construire le sélecteur de catégories + flèches dans la ligne du bas des contrôles
+  const controlsBottom = document.querySelector(".public-controls-bottom");
   const container = document.querySelector(".auto-scroll-container");
   let classSelect = null;
 
-  if (controls && classOptions.length) {
+  if (controlsBottom && classOptions.length) {
     const selectorWrapper = document.createElement("div");
     selectorWrapper.className = "class-selector";
 
@@ -335,7 +339,7 @@ function renderFromResultList(xmlDoc) {
     selectorHtml += "</select>";
 
     selectorWrapper.innerHTML = selectorHtml;
-    controls.appendChild(selectorWrapper);
+    controlsBottom.appendChild(selectorWrapper);
 
     classSelect = selectorWrapper.querySelector("#classSelect");
 
