@@ -23,7 +23,8 @@ const statusOrder = {
 
   publicHeaderInfo.textContent = `Course chargée depuis le fichier ${fileName}`;
 
-  fetch(`Résultats/${fileName}`)
+  // Sur Netlify, éviter les accents dans les chemins -> utiliser 'resultats/'
+  fetch(`resultats/${fileName}`)
     .then(resp => {
       if (!resp.ok) throw new Error('Impossible de charger le fichier XML');
       return resp.text();
