@@ -29,27 +29,29 @@
       margin-bottom: 0.8rem;
     }
 
-    /* Grossissement des textes pour affichage TV */
-    .public-page h1 {
-      font-size: 2.6rem;
-    }
+    /* Grossissement des textes pour affichage TV : seulement sur grands écrans */
+    @media (min-width: 1024px) {
+      .public-page h1 {
+        font-size: 2.6rem;
+      }
 
-    .public-page .class-title span:first-child {
-      font-size: 1.4rem;
-    }
+      .public-page .class-title span:first-child {
+        font-size: 1.4rem;
+      }
 
-    .public-page table {
-      font-size: 1.05rem;
-    }
+      .public-page table {
+        font-size: 1.05rem;
+      }
 
-    .public-page th {
-      font-size: 0.95rem;
-      padding: 0.7rem 0.9rem;
-    }
+      .public-page th {
+        font-size: 0.95rem;
+        padding: 0.7rem 0.9rem;
+      }
 
-    .public-page td {
-      font-size: 1.05rem;
-      padding: 0.6rem 0.9rem;
+      .public-page td {
+        font-size: 1.05rem;
+        padding: 0.6rem 0.9rem;
+      }
     }
   </style>
 </head>
