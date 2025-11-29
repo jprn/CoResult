@@ -341,9 +341,9 @@ function initBalises() {
   const balises = Array.from(document.querySelectorAll('.balise'));
 
   function launchFireworksCycle() {
-    // Centre d'explosion aléatoire (zone centrale de l'écran)
+    // Centre d'explosion aléatoire (partie supérieure de l'écran)
     const centerX = 30 + Math.random() * 40; // 30-70 vw
-    const centerY = 35 + Math.random() * 20; // 35-55 vh
+    const centerY = 5 + Math.random() * 25;  // 5-30 vh, zone haute
 
     // Phase 1 : départ en colonne verticale depuis le bas
     const verticalSpacing = 6; // écart en vh
@@ -369,7 +369,7 @@ function initBalises() {
         balises.forEach(b => {
           const duration = 1800 + Math.random() * 800; // 1.8-2.6s
           const angle = Math.random() * Math.PI * 2;
-          const radius = 25 + Math.random() * 25; // 25-50vw, éclatement encore plus large
+          const radius = 35 + Math.random() * 35; // 25-50vw, éclatement encore plus large
           const dx = Math.cos(angle) * radius;
           const dy = Math.sin(angle) * radius;
           b.style.transition = `transform ${duration}ms ease-out, opacity 1200ms ease-out`;
