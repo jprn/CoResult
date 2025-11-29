@@ -274,35 +274,65 @@ function renderFromResultList(xmlDoc) {
     resultsContainer.innerHTML =
       '<div class="no-results">Aucun coureur à afficher.</div>';
   } else {
-    // Bloc sélecteur de catégories + indicateur de sens de défilement
-    let selectorHtml = "";
-    if (classOptions.length) {
-      selectorHtml += '<div class="class-selector">';
-      selectorHtml +=
-        '<div class="scroll-indicator" title="Défilement vers le bas">' +
-        '<span class="arrow up">&#9650;</span>' +
-        '<span class="arrow down active">&#9660;</span>' +
-        "</div>";
-      selectorHtml += '<label for="classSelect">Catégorie :</label>';
-      selectorHtml += '<select id="classSelect">';
-      selectorHtml +=
-        '<option value="">Toutes les catégories</option>';
-      classOptions.forEach((opt) => {
-        const meta = opt.meta ? ` (${escapeHtml(opt.meta)})` : "";
-        selectorHtml += `<option value="${opt.index}">${escapeHtml(
-          opt.label
-        )}${meta}</option>`;
-      });
-      selectorHtml += "</select>";
-      selectorHtml += "</div>";
-    }
+    resultsContainer.innerHTML = html;
+  }
 
-    resultsContainer.innerHTML = selectorHtml + html;
+  // Construire le sélecteur de catégories + flèches dans le bloc public-controls
+  const controls = document.querySelector(".public-controls");
+  const container = document.querySelector(".auto-scroll-container");
+  let classSelect = null;
+
+  if (controls && classOptions.length) {
+    const selectorWrapper = document.createElement("div");
+    selectorWrapper.className = "class-selector";
+
+    let selectorHtml = "";
+    selectorHtml +=
+      '<div class="scroll-indicator" title="Sens de défilement">' +
+      '<span class="arrow up">&#9650;</span>' +
+      '<span class="arrow down active">&#9660;</span>' +
+      "</div>";
+    selectorHtml += '<label for="classSelect">Catégorie :</label>';
+    selectorHtml += '<select id="classSelect">';
+    selectorHtml += '<option value="">Toutes les catégories</option>';
+    classOptions.forEach((opt) => {
+      const meta = opt.meta ? ` (${escapeHtml(opt.meta)})` : "";
+      selectorHtml += `<option value="${opt.index}">${escapeHtml(
+        opt.label
+      )}${meta}</option>`;
+    });
+    selectorHtml += "</select>";
+
+    selectorWrapper.innerHTML = selectorHtml;
+    controls.appendChild(selectorWrapper);
+
+    classSelect = selectorWrapper.querySelector("#classSelect");
+
+    // Gestion des clics sur les flèches de direction
+    const scrollIndicator = selectorWrapper.querySelector(
+      ".scroll-indicator"
+    );
+    if (scrollIndicator) {
+      const arrowUp = scrollIndicator.querySelector(".arrow.up");
+      const arrowDown = scrollIndicator.querySelector(".arrow.down");
+
+      if (arrowUp && arrowDown) {
+        arrowUp.addEventListener("click", () => {
+          autoScrollDirection = -1;
+          arrowUp.classList.add("active");
+          arrowDown.classList.remove("active");
+        });
+
+        arrowDown.addEventListener("click", () => {
+          autoScrollDirection = 1;
+          arrowDown.classList.add("active");
+          arrowUp.classList.remove("active");
+        });
+      }
+    }
   }
 
   // Écouteur sur le sélecteur de catégories pour scroller vers la bonne section
-  const classSelect = document.getElementById("classSelect");
-  const container = document.querySelector(".auto-scroll-container");
   if (classSelect && container) {
     classSelect.addEventListener("change", (e) => {
       const value = e.target.value;
@@ -324,27 +354,6 @@ function renderFromResultList(xmlDoc) {
       if (target > maxScroll) target = maxScroll;
       container.scrollTop = target;
     });
-  }
-
-   // Gestion des clics sur les flèches de direction
-  const scrollIndicator = document.querySelector(".scroll-indicator");
-  if (scrollIndicator) {
-    const arrowUp = scrollIndicator.querySelector(".arrow.up");
-    const arrowDown = scrollIndicator.querySelector(".arrow.down");
-
-    if (arrowUp && arrowDown) {
-      arrowUp.addEventListener("click", () => {
-        autoScrollDirection = -1;
-        arrowUp.classList.add("active");
-        arrowDown.classList.remove("active");
-      });
-
-      arrowDown.addEventListener("click", () => {
-        autoScrollDirection = 1;
-        arrowDown.classList.add("active");
-        arrowUp.classList.remove("active");
-      });
-    }
   }
 
   // Lancer/mettre à jour les balises
