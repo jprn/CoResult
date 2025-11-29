@@ -493,6 +493,12 @@ select {
     white-space: normal;
   }
 
+  /* En-têtes plus compacts sur petits écrans */
+  th {
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+  }
+
   /* Réduire la largeur de Rg et réserver de la place au Temps/Statut */
   .col-rank {
     width: 2.2rem;
