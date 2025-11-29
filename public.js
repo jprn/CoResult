@@ -365,6 +365,17 @@ function renderFromResultList(xmlDoc) {
       let target = block.offsetTop;
       if (target > maxScroll) target = maxScroll;
       container.scrollTop = target;
+
+      // Pause du défilement + clignotement pendant 2 secondes
+      const previousSpeed = autoScrollSpeedFactor;
+      autoScrollSpeedFactor = 0;
+
+      block.classList.add("highlight-category");
+
+      setTimeout(() => {
+        block.classList.remove("highlight-category");
+        autoScrollSpeedFactor = previousSpeed;
+      }, 2000);
     });
   }
 
