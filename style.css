@@ -461,10 +461,11 @@ select {
     align-items: flex-start;
   }
 
-  th:nth-child(4),
-  td:nth-child(4),
-  th:nth-child(5),
-  td:nth-child(5) {
+  /* Sur mobile : masquer Dossard (colonne 2) et Départ (colonne avec .col-start)
+     pour garder visibles Rang, Nom, Club, Temps et Statut */
+  th:nth-child(2),
+  td:nth-child(2),
+  .col-start {
     display: none;
   }
 
