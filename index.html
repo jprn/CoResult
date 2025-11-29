@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>O'France – Résultats GEC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1><span>O'France</span> – Résultats GEC</h1>
+      <p>
+        Importez un fichier <strong>ResultList IOF XML</strong> exporté depuis votre logiciel de Gestion Électronique de Course
+        pour afficher les catégories, les temps et les classements dans une interface aux couleurs O'France.
+      </p>
+    </header>
+
+    <section class="card">
+      <div class="file-input-row">
+        <div>
+          <label for="xmlFile">Fichiers ResultList (.xml)</label><br>
+          <input type="file" id="xmlFile" accept=".xml" multiple>
+          <div class="hint">
+            Exemple : <code>ResultList_OFrance_200coureurs_poste100_A.xml</code> (format IOF XML v3.x)
+          </div>
+          <div id="error" class="error" aria-live="polite"></div>
+        </div>
+
+        <div class="selectors">
+          <div class="selector-block">
+            <label for="eventSelect">Course</label>
+            <select id="eventSelect" disabled>
+              <option value="">Sélectionnez une course</option>
+            </select>
+          </div>
+          <div class="selector-block">
+            <label for="categorySelect">Catégorie</label>
+            <select id="categorySelect" disabled>
+              <option value="__all__">Toutes les catégories</option>
+            </select>
+          </div>
+          <div class="selector-block">
+            <label for="clubSelect">Club</label>
+            <select id="clubSelect" disabled>
+              <option value="__all__">Tous les clubs</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="publicLink" class="hint" style="margin-top:0.8rem;"></div>
+      <button id="validateAdminBtn" class="btn-splits-all" style="margin-top:0.4rem;">
+        Valider cette course
+      </button>
+      <div id="validateAdminStatus" class="hint"></div>
+    </section>
+
+    <section id="eventInfo" class="card" style="display:none;"></section>
+
+    <section id="results" class="card">
+      <div class="no-results">
+        Aucun fichier chargé pour le moment.<br>
+        Choisissez un fichier <code>ResultList.xml</code> pour afficher les résultats.
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>O'France – Résultats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Spécifique page publique */
+    body {
+      overflow-x: hidden;
+    }
+    .public-page .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-top: 1.5rem;
+    }
+    .auto-scroll-container {
+      max-height: 70vh;
+      overflow-y: hidden;
+      position: relative;
+    }
+    .auto-scroll-inner {
+      padding-right: 0.5rem;
+    }
+    .public-header-info {
+      font-size: 0.9rem;
+      color: #dcefe7;
+      margin-bottom: 0.8rem;
+    }
+  </style>
+</head>
+<body class="public-page">
+  <div class="page">
+    <header>
+      <h1><span>O'France</span> – Résultats</h1>
+      <p class="public-header-info" id="publicHeaderInfo">
+        Chargement de la course en cours...
+      </p>
+    </header>
+
+    <section id="eventInfo" class="card" style="display:none;"></section>
+
+    <section id="results" class="card auto-scroll-container">
+      <div class="auto-scroll-inner" id="resultsInner">
+        <div class="no-results">
+          Aucun résultat à afficher pour le moment.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Conteneur pour les balisettes animées -->
+  <div id="baliseLayer"></div>
+
+  <script src="public.js"></script>
+</body>
+</html>
