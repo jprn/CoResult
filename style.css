@@ -163,7 +163,7 @@ input[type="file"]::file-selector-button {
   margin-top: 1.5rem;
 }
 
-.class-block.highlight-category {
+.class-title.highlight-category {
   animation: blink-category 0.4s ease-in-out 5;
 }
 

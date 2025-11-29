@@ -360,20 +360,23 @@ function renderFromResultList(xmlDoc) {
       const block = document.getElementById(`class-block-${index}`);
       if (!block) return;
 
+      const title = block.querySelector(".class-title");
+      if (!title) return;
+
       const maxScroll =
         resultsContainer.scrollHeight - container.clientHeight;
       let target = block.offsetTop;
       if (target > maxScroll) target = maxScroll;
       container.scrollTop = target;
 
-      // Pause du défilement + clignotement pendant 2 secondes
+      // Pause du défilement + clignotement du titre pendant 2 secondes
       const previousSpeed = autoScrollSpeedFactor;
       autoScrollSpeedFactor = 0;
 
-      block.classList.add("highlight-category");
+      title.classList.add("highlight-category");
 
       setTimeout(() => {
-        block.classList.remove("highlight-category");
+        title.classList.remove("highlight-category");
         autoScrollSpeedFactor = previousSpeed;
       }, 2000);
     });
