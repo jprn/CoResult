@@ -101,6 +101,33 @@ input[type="file"]::file-selector-button {
   color: #ffffff;
 }
 
+.public-page #eventInfo {
+  text-align: center;
+}
+
+.public-page .event-info {
+  text-align: center;
+}
+
+.public-page .event-title-main {
+  margin: 0.2rem 0 0.1rem;
+  font-size: 1.5rem;
+}
+
+.public-page .event-title-sub {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+  color: #dcefe7;
+}
+
+.public-page .event-start {
+  margin: 0.2rem 0 0.6rem;
+}
+
+.public-page .event-pill-bottom {
+  justify-content: center;
+}
+
 .event-pill {
   display: inline-flex;
   align-items: center;

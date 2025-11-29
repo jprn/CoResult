@@ -53,19 +53,19 @@ function renderFromResultList(xmlDoc) {
     const eventId = textContent(eventNode, "Id") || "";
     const startTime = textContent(eventNode, "StartTime") || "";
 
-    eventHtml += '<div class="event-pill">';
+    eventHtml += '<div class="event-info">';
+    // Type de course en H2 (ex : LD)
+    eventHtml += `<h2 class="event-title-main">${escapeHtml(eventName)}</h2>`;
+    // Course en H3 (ex : Jour 2)
+    if (eventId) {
+      eventHtml += `<h3 class="event-title-sub">${escapeHtml(eventId)}</h3>`;
+    }
+    // Mention IOF XML en bas du bloc
+    eventHtml += '<div class="event-pill event-pill-bottom">';
     eventHtml += '<span class="event-pill-dot"></span>';
     eventHtml += '<span>Résultats officiels IOF XML</span>';
     eventHtml += '</div>';
 
-    eventHtml += '<div class="event-info">';
-    eventHtml += `<p><strong>Événement :</strong> ${escapeHtml(eventName)}</p>`;
-    if (eventId) {
-      eventHtml += `<p><strong>ID :</strong> ${escapeHtml(eventId)}</p>`;
-    }
-    if (startTime) {
-      eventHtml += `<p><strong>Heure de départ globale :</strong> ${escapeHtml(startTime)}</p>`;
-    }
     eventHtml += '</div>';
 
     eventInfoContainer.innerHTML = eventHtml;
