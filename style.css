@@ -125,7 +125,7 @@ input[type="file"]::file-selector-button {
 }
 
 .public-page #eventInfo {
-  text-align: center;
+  text-align: left;
 }
 
 .public-page #eventInfo.card {
@@ -133,7 +133,7 @@ input[type="file"]::file-selector-button {
 }
 
 .public-page .event-info {
-  text-align: center;
+  text-align: left;
 }
 
 .public-page .event-title-main {
@@ -165,6 +165,7 @@ input[type="file"]::file-selector-button {
 .public-event-headings {
   flex: 1;
   min-width: 12rem;
+  text-align: left;
 }
 
 .public-event-actions {
@@ -186,7 +187,7 @@ input[type="file"]::file-selector-button {
 .public-event-bottom {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.9rem;
   margin-top: 0.35rem;
 }
@@ -209,6 +210,10 @@ input[type="file"]::file-selector-button {
     align-items: stretch;
   }
 
+  .public-event-headings {
+    text-align: center;
+  }
+
   .public-event-actions {
     justify-content: center;
   }
@@ -216,6 +221,7 @@ input[type="file"]::file-selector-button {
   .public-event-bottom {
     flex-direction: column;
     gap: 0.4rem;
+    justify-content: center;
   }
 }
 
