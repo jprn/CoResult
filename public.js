@@ -58,7 +58,9 @@ function renderFromResultList(xmlDoc) {
     const startTime = textContent(eventNode, "StartTime") || "";
     const eventDate = startTime ? startTime.split("T")[0] : "";
 
-    eventHtml += '<div class="event-info">';
+    eventHtml += '<div class="event-info public-event">';
+    eventHtml += '<div class="public-event-header">';
+    eventHtml += '<div class="public-event-titles">';
 
     // H1 : date + ID (jour)
     const h1Parts = [];
@@ -79,10 +81,11 @@ function renderFromResultList(xmlDoc) {
       '<h3 class="event-pill-title">Résultats officiels</h3>';
     eventHtml += "</div>";
 
-    // Boutons de contrôle dans le bloc événement
-    eventHtml += '<div class="public-controls">';
-    eventHtml += '  <div class="public-controls-bottom">';
-    eventHtml += '    <div class="scroll-speed-group">';
+    eventHtml += "</div>"; // public-event-titles
+
+    // Actions et contrôles
+    eventHtml += '<div class="public-event-actions">';
+    eventHtml += '  <div class="scroll-speed-group">';
     eventHtml +=
       '<div class="scroll-indicator" title="Sens de défilement">' +
       '<span class="arrow up">&#9650;</span>' +
@@ -94,11 +97,15 @@ function renderFromResultList(xmlDoc) {
       '<button id="scrollStopBtn" class="btn-splits-all public-btn public-btn-icon" title="Stop">&#9724;</button>';
     eventHtml +=
       '<button id="scrollFastBtn" class="btn-splits-all public-btn public-btn-icon" title="Avance rapide">&#9193;</button>';
-    eventHtml += '    </div>'; // fin scroll-speed-group
+    eventHtml += "  </div>"; // fin scroll-speed-group
     eventHtml +=
       '<button id="baliseToggleBtn" class="btn-splits-all public-btn balise-btn">Arrêter les balises</button>';
-    eventHtml += "  </div>"; // public-controls-bottom
-    eventHtml += "</div>"; // public-controls
+    eventHtml += "</div>"; // public-event-actions
+
+    eventHtml += "</div>"; // public-event-header
+
+    // Ligne dédiée (remplie ensuite via JS avec le sélecteur de catégories)
+    eventHtml += '<div class="public-controls-bottom"></div>';
 
     eventHtml += "</div>";
 

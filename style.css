@@ -132,6 +132,53 @@ input[type="file"]::file-selector-button {
   justify-content: center;
 }
 
+.public-event-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.public-event-titles {
+  flex: 1;
+  min-width: 12rem;
+}
+
+.public-event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.35rem;
+}
+
+.public-event-actions .scroll-speed-group {
+  flex: 0 0 auto;
+}
+
+.public-event-actions .balise-btn {
+  margin-left: 0;
+}
+
+.public-page .public-controls-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.35rem;
+}
+
+@media (max-width: 700px) {
+  .public-event-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .public-event-actions {
+    justify-content: center;
+  }
+}
+
 .public-controls {
   display: flex;
   flex-wrap: wrap;
@@ -590,28 +637,6 @@ body.public-page {
 
 .scroll-indicator .arrow.up.active {
   color: #6ee7b7;
-}
-
-.public-controls {
-  position: relative;
-}
-
-.public-controls-bottom {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  margin-top: 0.1rem;
-}
-
-.scroll-speed-group {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.balise-btn {
-  margin-left: auto;
 }
 
 .public-btn-icon {
