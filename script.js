@@ -151,19 +151,25 @@ function renderFromResultList(xmlDoc) {
     const eventId = textContent(eventNode, "Id") || "";
     const startTime = textContent(eventNode, "StartTime") || "";
 
+    eventHtml += '<div class="event-info admin-event">';
+    eventHtml += '<div class="admin-event-top">';
+    eventHtml += '<div class="admin-event-headings">';
+    eventHtml += `<div class="admin-event-title">${escapeHtml(eventName)}</div>`;
+    if (eventId || startTime) {
+      const metaParts = [];
+      if (eventId) metaParts.push(`ID ${escapeHtml(eventId)}`);
+      if (startTime) metaParts.push(`${escapeHtml(startTime)}`);
+      eventHtml += `<div class="admin-event-meta">${metaParts.join(" · ")}</div>`;
+    }
+    eventHtml += '</div>';
+    eventHtml += '</div>';
+
+    eventHtml += '<div class="admin-event-bottom">';
     eventHtml += '<div class="event-pill">';
     eventHtml += '<span class="event-pill-dot"></span>';
     eventHtml += '<span>Événement importé depuis ResultList IOF XML</span>';
     eventHtml += '</div>';
-
-    eventHtml += '<div class="event-info">';
-    eventHtml += `<p><strong>Événement :</strong> ${escapeHtml(eventName)}</p>`;
-    if (eventId) {
-      eventHtml += `<p><strong>ID :</strong> ${escapeHtml(eventId)}</p>`;
-    }
-    if (startTime) {
-      eventHtml += `<p><strong>Heure de départ globale :</strong> ${escapeHtml(startTime)}</p>`;
-    }
+    eventHtml += '</div>';
     eventHtml += '</div>';
 
     eventInfoContainer.innerHTML = eventHtml;

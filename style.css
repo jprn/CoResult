@@ -101,6 +101,29 @@ input[type="file"]::file-selector-button {
   color: #ffffff;
 }
 
+.admin-event {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.admin-event-title {
+  font-size: 1.05rem;
+  font-weight: 650;
+  color: #fefcf4;
+}
+
+.admin-event-meta {
+  font-size: 0.85rem;
+  color: #a4c9b8;
+  margin-top: 0.15rem;
+}
+
+.admin-event-bottom {
+  display: flex;
+  align-items: center;
+}
+
 .public-page #eventInfo {
   text-align: center;
 }
