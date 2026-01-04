@@ -59,8 +59,8 @@ function renderFromResultList(xmlDoc) {
     const eventDate = startTime ? startTime.split("T")[0] : "";
 
     eventHtml += '<div class="event-info public-event">';
-    eventHtml += '<div class="public-event-header">';
-    eventHtml += '<div class="public-event-titles">';
+    eventHtml += '<div class="public-event-top">';
+    eventHtml += '<div class="public-event-headings">';
 
     // H1 : date + ID (jour)
     const h1Parts = [];
@@ -74,14 +74,7 @@ function renderFromResultList(xmlDoc) {
       eventName
     )}</h2>`;
 
-    // H3 dans la pastille : "Résultats officiels"
-    eventHtml += '<div class="event-pill event-pill-bottom">';
-    eventHtml += '<span class="event-pill-dot"></span>';
-    eventHtml +=
-      '<h3 class="event-pill-title">Résultats officiels</h3>';
-    eventHtml += "</div>";
-
-    eventHtml += "</div>"; // public-event-titles
+    eventHtml += "</div>"; // public-event-headings
 
     // Actions et contrôles
     eventHtml += '<div class="public-event-actions">';
@@ -102,10 +95,19 @@ function renderFromResultList(xmlDoc) {
       '<button id="baliseToggleBtn" class="btn-splits-all public-btn balise-btn">Arrêter les balises</button>';
     eventHtml += "</div>"; // public-event-actions
 
-    eventHtml += "</div>"; // public-event-header
+    eventHtml += "</div>"; // public-event-top
+
+    eventHtml += '<div class="public-event-bottom">';
+    eventHtml += '<div class="public-event-badge">';
+    eventHtml += '<div class="event-pill event-pill-bottom">';
+    eventHtml += '<span class="event-pill-dot"></span>';
+    eventHtml += '<h3 class="event-pill-title">Résultats officiels</h3>';
+    eventHtml += "</div>";
+    eventHtml += "</div>";
 
     // Ligne dédiée (remplie ensuite via JS avec le sélecteur de catégories)
     eventHtml += '<div class="public-controls-bottom"></div>';
+    eventHtml += "</div>"; // public-event-bottom
 
     eventHtml += "</div>";
 

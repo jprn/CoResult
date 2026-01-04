@@ -132,14 +132,14 @@ input[type="file"]::file-selector-button {
   justify-content: center;
 }
 
-.public-event-header {
+.public-event-top {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
 }
 
-.public-event-titles {
+.public-event-headings {
   flex: 1;
   min-width: 12rem;
 }
@@ -160,22 +160,39 @@ input[type="file"]::file-selector-button {
   margin-left: 0;
 }
 
+.public-event-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-top: 0.35rem;
+}
+
+.public-event-badge {
+  flex: 0 0 auto;
+}
+
 .public-page .public-controls-bottom {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin-top: 0.35rem;
+  width: auto;
+  margin-top: 0;
 }
 
 @media (max-width: 700px) {
-  .public-event-header {
+  .public-event-top {
     flex-direction: column;
     align-items: stretch;
   }
 
   .public-event-actions {
     justify-content: center;
+  }
+
+  .public-event-bottom {
+    flex-direction: column;
+    gap: 0.4rem;
   }
 }
 
