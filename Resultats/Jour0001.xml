@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<MOPComplete xmlns="http://www.melin.nu/mop">
+<competition date="2020-03-06" organizer="" homepage="" zerotime="17:00:00">Youth Cup III</competition>
+<ctrl id="37">37</ctrl>
+<ctrl id="41">41</ctrl>
+<ctrl id="42">42</ctrl>
+<ctrl id="43">43</ctrl>
+<ctrl id="47">47</ctrl>
+<ctrl id="50">50</ctrl>
+<ctrl id="57">57</ctrl>
+<ctrl id="60">60</ctrl>
+<ctrl id="63">63</ctrl>
+<ctrl id="64">64</ctrl>
+<ctrl id="65">65</ctrl>
+<ctrl id="76">76</ctrl>
+<ctrl id="80">80</ctrl>
+<ctrl id="87">87</ctrl>
+<ctrl id="92">92</ctrl>
+<ctrl id="94">94</ctrl>
+<ctrl id="95">95</ctrl>
+<ctrl id="97">97</ctrl>
+<ctrl id="100">100</ctrl>
+<ctrl id="113">113</ctrl>
+<ctrl id="142">142</ctrl>
+<ctrl id="150">150</ctrl>
+<cls id="1" ord="10" radio="41,42,50,37,64,150,47,100" crs="1">Easy</cls>
+<cls id="2" ord="20" radio="57,41,142,50,37,65,150,47,100" crs="2">Medium</cls>
+<cls id="3" ord="30" radio="57,41,142,50,37,60,97,65,150,113,47,100" crs="3">Open Long</cls>
+<cls id="4" ord="40" radio="63,87,95,80,50,94,150,76,92,43,100" crs="4">Open Short</cls>
+<org id="1">Degerfors OK</org>
+<org id="2">Ankarsrums OK</org>
+<org id="3">Bodafors OK</org>
+<org id="4">Burseryds IF</org>
+<org id="5">Duveds IF</org>
+<org id="6">Gagnefs OK</org>
+<org id="7">Grisslehamns SK</org>
+<org id="8">Hallstahammars OK</org>
+<org id="9">Haninge SOK</org>
+<org id="10">OK Flundrehof</org>
+<org id="11">Horreds SK</org>
+<org id="12">Hästveda OK</org>
+<org id="13">IFK Brattfors</org>
+<org id="14">OK Järnbärarna</org>
+<org id="15">KFUK-KFUM Göteborg</org>
+<org id="16">Karlbergs SIF</org>
+<org id="17">Lekeryd-Svarttorps SK</org>
+<org id="18">Lycksele IF</org>
+<org id="19">Markaryds FK</org>
+<org id="20">Njurunda OK</org>
+<org id="21">IK Omega</org>
+<org id="22">OK Rodhen</org>
+<org id="23">S-E Bankens IF</org>
+<org id="24">OK Silvanus</org>
+<org id="25">OK Skogsfalken</org>
+<org id="26">Smedsbyns IF</org>
+<org id="27">OK Stigen</org>
+<org id="28">Svanesunds GIF</org>
+<org id="29">Tjällmo-Godegårds OK</org>
+<org id="30">IK Trenne Ullared</org>
+<org id="888888888">Vakant</org>
+<cmp id="1" card="500114">
+<base org="14" cls="1" stat="1" st="651600" rt="25680" crs="1">Hans Persson</base>
+<radio>41,2830;42,5720;50,8550;37,11380;64,14260;150,17090;47,19980;100,22840</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="2" card="500275">
+<base org="13" cls="1" stat="1" st="680400" rt="30870" crs="1">Klara Jonsson</base>
+<radio>41,2890;42,5790;50,8690;37,11590;64,14490;150,17390;47,20290;100,27970</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="3" card="500298">
+<base org="6" cls="1" stat="3" st="657600" rt="27470" crs="1">Tobias Westlund</base>
+<radio>41,3030;42,6120;50,9150;64,15240;150,18270;47,21300;100,24430</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="4" card="500440">
+<base org="1" cls="1" stat="1" st="666000" rt="33560" crs="1">Magnus Karlsson</base>
+<radio>41,3180;42,6360;50,9540;37,12720;64,15900;150,19080;47,22260;100,30380</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="5" card="500541">
+<base org="7" cls="1" stat="1" st="650400" rt="29160" crs="1">Rasmus Davidson</base>
+<radio>41,2650;42,5300;50,7950;37,10600;64,15020;150,17670;47,20320;100,26500</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="6" card="500588">
+<base org="23" cls="1" stat="1" st="675600" rt="31350" crs="1">Johnny Persson</base>
+<radio>41,3040;42,8710;50,11760;37,14800;64,17850;150,20890;47,23940;100,28300</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="7" card="500707">
+<base org="4" cls="1" stat="1" st="654000" rt="29460" crs="1">Jonas Andersson</base>
+<radio>41,2990;42,5980;50,8970;37,11960;64,14950;150,17940;47,21770;100,26460</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="8" card="500822">
+<base org="1" cls="1" stat="0" st="669600" rt="0" crs="1">Hans Enström</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="9" card="500928">
+<base org="18" cls="1" stat="1" st="676800" rt="34010" crs="1">Sten-Åke Wåhlander</base>
+<radio>41,3190;42,6380;50,9570;37,12760;64,15950;150,19140;47,22330;100,30810</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="10" card="501034">
+<base org="23" cls="1" stat="1" st="655200" rt="25510" crs="1">Henrik Bohlin</base>
+<radio>41,2830;42,5660;50,8500;37,11330;64,14170;150,17000;47,19840;100,22670</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="11" card="501135">
+<base org="5" cls="1" stat="1" st="667200" rt="29580" crs="1">Jakob Falkeby</base>
+<radio>41,3140;42,6290;50,9440;37,12580;64,16150;150,19300;47,22440;100,26430</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="12" card="501199">
+<base org="12" cls="1" stat="1" st="648000" rt="25750" crs="1">Lisa Stenvall</base>
+<radio>41,2600;42,5200;50,7800;37,10400;64,13000;150,16770;47,19760;100,23150</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="13" card="501269">
+<base org="18" cls="1" stat="0" st="679200" rt="0" crs="1">Rebecca Hansson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="14" card="501427">
+<base org="30" cls="1" stat="0" st="649200" rt="0" crs="1">Amanda Ericsson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="15" card="501511">
+<base org="19" cls="1" stat="1" st="658800" rt="25600" crs="1">Albin Palm</base>
+<radio>41,2830;42,5660;50,8500;37,11330;64,14170;150,17000;47,19900;100,22760</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="16" card="501580">
+<base org="11" cls="1" stat="1" st="682800" rt="27050" crs="1">Annika Johansson</base>
+<radio>41,2990;42,5990;50,8990;37,11990;64,14990;150,18010;47,21010;100,24050</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="17" card="501697">
+<base org="12" cls="1" stat="0" st="681600" rt="0" crs="1">Annica Hagman</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="18" card="501761">
+<base org="30" cls="1" stat="1" st="668400" rt="31830" crs="1">Daniel Björnudd</base>
+<radio>41,2980;42,5960;50,8950;37,11930;64,14920;150,20380;47,23370;100,28840</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="19" card="501857">
+<base org="4" cls="1" stat="0" st="664800" rt="0" crs="1">Per-Erik Fries</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="20" card="502003">
+<base org="21" cls="1" stat="1" st="660000" rt="28690" crs="1">KG Gabrielsson</base>
+<radio>41,2990;42,7160;50,10150;37,13540;64,16530;150,19520;47,22570;100,25700</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="21" card="502129">
+<base org="11" cls="1" stat="3" st="673200" rt="29890" crs="1">Marie Zachrisson</base>
+<radio>42,6470;50,9710;37,12940;64,16180;150,19420;47,23150;100,26650</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="22" card="502171">
+<base org="10" cls="1" stat="1" st="662400" rt="28560" crs="1">Lisbeth Wallgren</base>
+<radio>41,2780;42,5560;50,8350;37,11130;64,13920;150,16700;47,19490;100,25770</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="23" card="502266">
+<base org="25" cls="1" stat="0" st="678000" rt="0" crs="1">Lennart Ekman</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="24" card="502414">
+<base org="9" cls="1" stat="1" st="656400" rt="26850" crs="1">Peder Öberg</base>
+<radio>41,2860;42,5720;50,8590;37,11450;64,14850;150,17720;47,20760;100,23980</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="25" card="502436">
+<base org="18" cls="1" stat="3" st="672000" rt="30350" crs="1">Madelene Blombäck</base>
+<radio>41,2940;42,5890;50,8840;37,11790;64,14740;150,19590;100,27400</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="26" card="502574">
+<base org="14" cls="1" stat="1" st="661200" rt="32630" crs="1">Anders I Lundkvist</base>
+<radio>41,3080;42,6160;50,9240;37,12320;64,16220;150,19300;47,24420;100,29540</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="27" card="502670">
+<base org="18" cls="1" stat="1" st="670800" rt="31200" crs="1">Måns Morell</base>
+<radio>41,5960;42,9930;50,13230;37,16300;64,19270;150,22250;47,25210;100,28230</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="31" card="503019">
+<base org="6" cls="2" stat="1" st="661800" rt="28100" crs="2">Göran Karlsson</base>
+<radio>57,2790;41,5590;142,8390;50,11190;37,13990;65,16790;150,19590;47,22400;100,25300</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="32" card="503144">
+<base org="20" cls="2" stat="3" st="652200" rt="28740" crs="2">Slawomir Timbré</base>
+<radio>57,2890;41,5760;50,11500;37,14370;65,17240;150,20110;47,22980;100,25870</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="33" card="503219">
+<base org="15" cls="2" stat="1" st="654600" rt="33460" crs="2">Stig Berglund</base>
+<radio>57,3010;41,6030;142,9050;50,12060;37,15080;65,18100;150,21650;47,26500;100,30440</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="34" card="503317">
+<base org="20" cls="2" stat="0" st="648600" rt="0" crs="2">Lisbeth Göhl</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="35" card="503431">
+<base org="4" cls="2" stat="3" st="649800" rt="30240" crs="2">Leif Nordin</base>
+<radio>57,2810;142,8430;50,11940;37,14760;65,18040;150,20850;47,23810;100,27420</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="36" card="503570">
+<base org="5" cls="2" stat="1" st="657000" rt="28310" crs="2">Henrik Johansson</base>
+<radio>57,2580;41,5160;142,7740;50,11560;37,14770;65,17450;150,20290;47,22870;100,25720</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="37" card="503598">
+<base org="19" cls="2" stat="1" st="660600" rt="29990" crs="2">Charlotte Arvidsson</base>
+<radio>57,2560;41,5130;142,7690;50,10260;37,12830;65,16830;150,19400;47,23400;100,27420</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="38" card="503727">
+<base org="9" cls="2" stat="4" st="651000" rt="0" crs="2">Fredrik Henriksson</base>
+<radio>57,3060;41,6120;142,9180;50,13740;37,16810;65,19870;150,23430;47,26660;100,29810</radio>
+<input it="0" tstat="4"/>
+</cmp>
+<cmp id="39" card="503835">
+<base org="20" cls="2" stat="3" st="658200" rt="28520" crs="2">Veronica Bernet</base>
+<radio>57,2630;41,5270;142,7910;50,10550;65,15820;150,18460;47,21100;100,25880</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="43" card="504198">
+<base org="29" cls="3" stat="0" st="668400" rt="0" crs="3">Örjan Johansson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="44" card="504349">
+<base org="11" cls="3" stat="0" st="658800" rt="0" crs="3">Per Eriksson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="45" card="504431">
+<base org="16" cls="3" stat="1" st="670800" rt="34430" crs="3">Kjell Boström</base>
+<radio>57,2600;41,5210;142,7810;50,10420;37,13020;60,15630;97,18230;65,20840;150,23440;113,26050;47,28740;100,31820</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="46" card="504536">
+<base org="3" cls="3" stat="0" st="649200" rt="0" crs="3">Jan Håkansson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="47" card="504596">
+<base org="19" cls="3" stat="1" st="648000" rt="37350" crs="3">Rebecca Åkerlund</base>
+<radio>57,2870;41,5740;142,8610;50,11480;37,14350;60,17220;97,20090;65,22960;150,25830;113,28700;47,31590;100,34480</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="48" card="504720">
+<base org="6" cls="3" stat="1" st="663600" rt="34290" crs="3">David Hammarbäck</base>
+<radio>57,2540;41,5090;142,7640;50,10190;37,12730;60,15280;97,17830;65,20380;150,22920;113,25470;47,28020;100,31740</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="49" card="504839">
+<base org="25" cls="3" stat="1" st="657600" rt="34450" crs="3">Roland Dyrander</base>
+<radio>57,2580;41,5160;142,8340;50,10920;37,13500;60,16080;97,18660;65,21240;150,23820;113,26400;47,29130;100,31860</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="50" card="504924">
+<base org="3" cls="3" stat="1" st="667200" rt="39460" crs="3">Monica Palmgren</base>
+<radio>57,2630;41,5270;142,7910;50,10550;37,13180;60,15820;97,18460;65,21960;150,24590;113,30100;47,33700;100,36820</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="51" card="504990">
+<base org="18" cls="3" stat="1" st="661200" rt="36740" crs="3">Yvonne Strandlund</base>
+<radio>57,2500;41,5000;142,7500;50,10000;37,12500;60,15000;97,18200;65,21280;150,25250;113,28730;47,31230;100,34230</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="52" card="505130">
+<base org="6" cls="3" stat="1" st="651600" rt="38050" crs="3">Erik Malmberg</base>
+<radio>57,2830;41,5670;142,8510;50,11340;37,14180;60,17020;97,19850;65,22690;150,25530;113,28360;47,31200;100,35210</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="53" card="505183">
+<base org="4" cls="3" stat="0" st="650400" rt="0" crs="3">Alva Fröjd</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="54" card="505269">
+<base org="22" cls="3" stat="0" st="654000" rt="0" crs="3">Anders Hvoslef</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="55" card="505339">
+<base org="23" cls="3" stat="1" st="656400" rt="36090" crs="3">Johan Sturek</base>
+<radio>57,2600;41,5210;142,7820;50,10420;37,13030;60,16000;97,18600;65,21210;150,23820;113,26420;47,29950;100,33480</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="56" card="505522">
+<base org="29" cls="3" stat="1" st="652800" rt="33760" crs="3">Gustav Pettersson</base>
+<radio>57,2590;41,5190;142,7790;50,10380;37,12980;60,15580;97,18170;65,20770;150,23370;113,25960;47,28560;100,31160</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="57" card="505550">
+<base org="23" cls="3" stat="0" st="666000" rt="0" crs="3">Sebastian Alenbring</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="58" card="505722">
+<base org="12" cls="3" stat="0" st="655200" rt="0" crs="3">Astrid Andersson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="59" card="505803">
+<base org="29" cls="3" stat="1" st="660000" rt="41330" crs="3">Johan Pauli</base>
+<radio>57,2890;41,5790;142,8690;50,11590;37,14490;60,19810;97,22710;65,25610;150,28510;113,31410;47,34310;100,38430</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="63" card="506118">
+<base org="15" cls="4" stat="1" st="663600" rt="34780" crs="4">Bo Malmborg</base>
+<radio>63,2520;87,5040;95,9820;80,12340;50,15990;94,19080;150,21690;76,24210;92,26730;43,29490;100,32250</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="64" card="506276">
+<base org="26" cls="4" stat="1" st="662400" rt="30910" crs="4">Kristina Mårtensson</base>
+<radio>63,2560;87,5120;95,7690;80,10250;50,12820;94,15380;150,17940;76,20510;92,23070;43,25680;100,28340</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="65" card="506306">
+<base org="30" cls="4" stat="1" st="666000" rt="34950" crs="4">Ulf Nero</base>
+<radio>63,3910;87,6620;95,9930;80,13040;50,15750;94,18470;150,21180;76,23890;92,26600;43,29310;100,32230</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="66" card="506477">
+<base org="8" cls="4" stat="0" st="650400" rt="0" crs="4">Marcus Jansson</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="67" card="506512">
+<base org="7" cls="4" stat="1" st="656400" rt="30010" crs="4">Marie Andersson</base>
+<radio>63,2480;87,4970;95,7460;80,9950;50,12530;94,15020;150,17510;76,20000;92,22490;43,25010;100,27520</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="68" card="506600">
+<base org="28" cls="4" stat="0" st="669600" rt="0" crs="4">Rickard Liljenrud</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="69" card="506723">
+<base org="9" cls="4" stat="1" st="664800" rt="35330" crs="4">Nils Wiberg</base>
+<radio>63,2730;87,5460;95,8190;80,10930;50,13660;94,16390;150,20390;76,23340;92,26240;43,29560;100,32590</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="70" card="506801">
+<base org="25" cls="4" stat="1" st="655200" rt="33220" crs="4">Jessica Lindholm</base>
+<radio>63,2450;87,4900;95,7360;80,11690;50,14150;94,16600;150,19050;76,21510;92,24900;43,27360;100,30760</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="71" card="506896">
+<base org="27" cls="4" stat="1" st="648000" rt="30820" crs="4">Vidar Tynell</base>
+<radio>63,2430;87,4860;95,7290;80,9720;50,12150;94,14580;150,17010;76,19440;92,22420;43,25590;100,28390</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="72" card="507026">
+<base org="16" cls="4" stat="3" st="660000" rt="36410" crs="4">Yngve Ruderfors</base>
+<radio>63,2870;87,5750;95,8630;50,14380;94,17570;150,20450;76,23850;92,26720;43,29600;100,33530</radio>
+<input it="0" tstat="3"/>
+</cmp>
+<cmp id="73" card="507096">
+<base org="3" cls="4" stat="0" st="654000" rt="0" crs="4">Vidar Höök</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="74" card="507225">
+<base org="2" cls="4" stat="1" st="649200" rt="33220" crs="4">Kenneth Stolt</base>
+<radio>63,2750;87,5510;95,8270;80,11030;50,13790;94,16550;150,19310;76,22120;92,24880;43,27660;100,30460</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="75" card="507322">
+<base org="2" cls="4" stat="1" st="652800" rt="34060" crs="4">Kerstin Normark</base>
+<radio>63,2650;87,5310;95,7970;80,10630;50,13290;94,16300;150,20160;76,22820;92,25680;43,28400;100,31400</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="76" card="507453">
+<base org="20" cls="4" stat="0" st="667200" rt="0" crs="4">Ann-Kristin Edling</base>
+<input it="0" tstat="0"/>
+</cmp>
+<cmp id="77" card="507498">
+<base org="14" cls="4" stat="1" st="658800" rt="36620" crs="4">Ina Larsson</base>
+<radio>63,2770;87,5540;95,8310;80,11080;50,13850;94,16630;150,21080;76,23850;92,26620;43,29390;100,33840</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="78" card="507609">
+<base org="13" cls="4" stat="1" st="668400" rt="35490" crs="4">Tilda Taxell</base>
+<radio>63,2570;87,5150;95,7730;80,10310;50,12890;94,15470;150,18050;76,20630;92,23210;43,25790;100,32910</radio>
+<input it="0" tstat="1"/>
+</cmp>
+<cmp id="79" card="507749">
+<base org="25" cls="4" stat="1" st="670800" rt="31650" crs="4">Pär Berglund</base>
+<radio>63,2470;87,5270;95,7740;80,10220;50,12690;94,15160;150,17630;76,20660;92,23130;43,26150;100,29170</radio>
+<input it="0" tstat="1"/>
+</cmp>
+</MOPComplete>
