@@ -516,7 +516,7 @@ function startAutoScroll() {
     autoScrollIntervalId = null;
   }
   autoScrollIntervalId = setInterval(() => {
-    const maxScroll = inner.scrollHeight - container.clientHeight;
+    const maxScroll = container.scrollHeight - container.clientHeight;
     if (maxScroll <= 0) return;
     if (autoScrollSpeedFactor === 0) return;
 
