@@ -285,12 +285,16 @@ function handleEventChange() {
   const { xmlDoc } = info;
 
   // Construire le lien public basé sur le nom de fichier
-  if (publicLinkBox && info && info.fileName) {
+  if (info && info.fileName) {
     const fileParam = encodeURIComponent(info.fileName);
     const basePath = window.location.pathname.replace('index.html', '');
     const publicUrl = `${basePath}public.html?file=${fileParam}`;
     globalPublicUrl = publicUrl;
-    publicLinkBox.innerHTML = `URL publique : <a href="${publicUrl}" target="_blank">${publicUrl}</a>`;
+
+    if (publicLinkBox) {
+      publicLinkBox.innerHTML = `URL publique : <a href="${publicUrl}" target="_blank">${publicUrl}</a>`;
+    }
+
     renderPublicQr(publicUrl);
   }
   renderFromResultList(xmlDoc);
@@ -306,45 +310,51 @@ function renderPublicQr(publicUrl) {
   }
 
   const absoluteUrl = new URL(publicUrl, window.location.origin).toString();
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(
+    absoluteUrl
+  )}`;
 
-  if (!window.QRCode || !window.QRCode.toCanvas) {
-    publicQrBox.textContent = 'QR code indisponible (librairie non chargée).';
+  const img = document.createElement('img');
+  img.id = 'publicQrImg';
+  img.alt = 'QR code URL publique';
+  img.width = 220;
+  img.height = 220;
+  img.style.display = 'block';
+  img.style.marginTop = '0.2rem';
+  img.src = qrUrl;
+
+  img.addEventListener('load', () => {
+    if (downloadQrBtn) downloadQrBtn.style.display = '';
+  });
+
+  img.addEventListener('error', () => {
+    publicQrBox.textContent = 'QR code indisponible (génération externe impossible).';
     if (downloadQrBtn) downloadQrBtn.style.display = 'none';
-    return;
-  }
+  });
 
-  const canvas = document.createElement('canvas');
-  canvas.id = 'publicQrCanvas';
-  publicQrBox.appendChild(canvas);
-
-  window.QRCode.toCanvas(
-    canvas,
-    absoluteUrl,
-    {
-      width: 220,
-      margin: 1,
-      errorCorrectionLevel: 'M',
-    },
-    (err) => {
-      if (err) {
-        console.error(err);
-        publicQrBox.textContent = 'Erreur génération QR code.';
-        if (downloadQrBtn) downloadQrBtn.style.display = 'none';
-        return;
-      }
-      if (downloadQrBtn) downloadQrBtn.style.display = '';
-    }
-  );
+  publicQrBox.appendChild(img);
 }
 
 function onDownloadQrClick() {
-  const canvas = document.getElementById('publicQrCanvas');
-  if (!canvas) return;
+  const img = document.getElementById('publicQrImg');
+  if (!img || !img.src) return;
 
-  const link = document.createElement('a');
-  link.download = 'qrcode-resultats.png';
-  link.href = canvas.toDataURL('image/png');
-  link.click();
+  fetch(img.src)
+    .then((r) => {
+      if (!r.ok) throw new Error('download qr failed');
+      return r.blob();
+    })
+    .then((blob) => {
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.download = 'qrcode-resultats.png';
+      link.href = url;
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 2000);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
 }
 
 function renderFromResultList(xmlDoc) {
