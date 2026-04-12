@@ -50,8 +50,12 @@
         </div>
       </div>
       <div id="publicLink" class="hint" style="margin-top:0.8rem;"></div>
+      <div id="publicQr" class="hint" style="margin-top:0.8rem;"></div>
       <button id="validateAdminBtn" class="btn-splits-all" style="margin-top:0.4rem;">
         Copier l’URL publique
+      </button>
+      <button id="downloadQrBtn" class="btn-splits-all" style="margin-top:0.4rem; display:none;">
+        Télécharger le QR code
       </button>
       <div id="validateAdminStatus" class="hint"></div>
     </section>
@@ -66,6 +70,7 @@
     </section>
   </div>
 
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script src="script.js?v=20260412"></script>
   </body>
   </html>

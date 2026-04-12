@@ -3,8 +3,10 @@ const resultsContainer = document.getElementById('results');
 const eventInfoContainer = document.getElementById('eventInfo');
 const errorBox = document.getElementById('error');
 const publicLinkBox = document.getElementById('publicLink');
+const publicQrBox = document.getElementById('publicQr');
 const validateAdminBtn = document.getElementById('validateAdminBtn');
 const validateAdminStatus = document.getElementById('validateAdminStatus');
+const downloadQrBtn = document.getElementById('downloadQrBtn');
 const eventSelect = document.getElementById('eventSelect');
 const categorySelect = document.getElementById('categorySelect');
 const clubSelect = document.getElementById('clubSelect');
@@ -28,6 +30,9 @@ clubSelect.addEventListener('change', renderResultsForSelection);
 if (validateAdminBtn) {
   validateAdminBtn.addEventListener('click', onValidateAdminClick);
 }
+if (downloadQrBtn) {
+  downloadQrBtn.addEventListener('click', onDownloadQrClick);
+}
 
 initServerXmlLoad();
 
@@ -35,6 +40,10 @@ function initServerXmlLoad() {
   const parser = new DOMParser();
   let loadedCount = 0;
   let resultsDir = null;
+
+  if (errorBox) {
+    errorBox.textContent = 'Chargement automatique en cours…';
+  }
 
   const manifestCandidates = [
     'Resultats/manifest.json',
@@ -155,7 +164,7 @@ function initServerXmlLoad() {
       eventSelect.disabled = false;
 
       if (errorBox) {
-        errorBox.textContent = loadedCount ? '' : errorBox.textContent;
+        errorBox.textContent = `Chargement automatique: ${loadedCount} course(s) chargée(s).`;
       }
 
       if (keys.length === 1) {
@@ -265,6 +274,8 @@ function handleEventChange() {
     categorySelect.disabled = true;
     clubSelect.disabled = true;
     if (publicLinkBox) publicLinkBox.textContent = '';
+    if (publicQrBox) publicQrBox.innerHTML = '';
+    if (downloadQrBtn) downloadQrBtn.style.display = 'none';
     globalPublicUrl = '';
     if (validateAdminStatus) validateAdminStatus.textContent = '';
     return;
@@ -280,8 +291,60 @@ function handleEventChange() {
     const publicUrl = `${basePath}public.html?file=${fileParam}`;
     globalPublicUrl = publicUrl;
     publicLinkBox.innerHTML = `URL publique : <a href="${publicUrl}" target="_blank">${publicUrl}</a>`;
+    renderPublicQr(publicUrl);
   }
   renderFromResultList(xmlDoc);
+}
+
+function renderPublicQr(publicUrl) {
+  if (!publicQrBox) return;
+  publicQrBox.innerHTML = '';
+
+  if (!publicUrl) {
+    if (downloadQrBtn) downloadQrBtn.style.display = 'none';
+    return;
+  }
+
+  const absoluteUrl = new URL(publicUrl, window.location.origin).toString();
+
+  if (!window.QRCode || !window.QRCode.toCanvas) {
+    publicQrBox.textContent = 'QR code indisponible (librairie non chargée).';
+    if (downloadQrBtn) downloadQrBtn.style.display = 'none';
+    return;
+  }
+
+  const canvas = document.createElement('canvas');
+  canvas.id = 'publicQrCanvas';
+  publicQrBox.appendChild(canvas);
+
+  window.QRCode.toCanvas(
+    canvas,
+    absoluteUrl,
+    {
+      width: 220,
+      margin: 1,
+      errorCorrectionLevel: 'M',
+    },
+    (err) => {
+      if (err) {
+        console.error(err);
+        publicQrBox.textContent = 'Erreur génération QR code.';
+        if (downloadQrBtn) downloadQrBtn.style.display = 'none';
+        return;
+      }
+      if (downloadQrBtn) downloadQrBtn.style.display = '';
+    }
+  );
+}
+
+function onDownloadQrClick() {
+  const canvas = document.getElementById('publicQrCanvas');
+  if (!canvas) return;
+
+  const link = document.createElement('a');
+  link.download = 'qrcode-resultats.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
 }
 
 function renderFromResultList(xmlDoc) {
