@@ -14,6 +14,7 @@ let lastXmlText = null;
 let autoScrollIntervalId = null;
 let refreshIntervalId = null;
 let currentLoadAbortController = null;
+let userScrollModeSet = false;
 
 // ------------------------
 // Initialisation
@@ -37,9 +38,6 @@ let currentLoadAbortController = null;
   }
 
   loadAndRenderXml(fileName, { preserveScroll: false })
-    .then(() => {
-      startAutoScroll();
-    })
     .catch((err) => {
       console.error(err);
       resultsContainer.innerHTML =
@@ -189,9 +187,18 @@ function renderFromResultList(xmlDoc) {
       // État initial : lecture normale
       updateScrollButtons("play");
 
-      playBtn.addEventListener("click", () => updateScrollButtons("play"));
-      fastBtn.addEventListener("click", () => updateScrollButtons("fast"));
-      stopBtn.addEventListener("click", () => updateScrollButtons("stop"));
+      playBtn.addEventListener("click", () => {
+        userScrollModeSet = true;
+        updateScrollButtons("play");
+      });
+      fastBtn.addEventListener("click", () => {
+        userScrollModeSet = true;
+        updateScrollButtons("fast");
+      });
+      stopBtn.addEventListener("click", () => {
+        userScrollModeSet = true;
+        updateScrollButtons("stop");
+      });
     }
 
     if (baliseToggleBtn) {
@@ -496,6 +503,10 @@ function startAutoScroll() {
   const container = document.querySelector(".auto-scroll-container");
   const inner = document.getElementById("resultsInner");
   if (!container || !inner) return;
+
+  if (!userScrollModeSet && autoScrollSpeedFactor === 0) {
+    autoScrollSpeedFactor = 1;
+  }
 
   const step = 1; // pixels
   const interval = 40; // ms
