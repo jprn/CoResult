@@ -34,19 +34,30 @@ initServerXmlLoad();
 function initServerXmlLoad() {
   const parser = new DOMParser();
   let loadedCount = 0;
+  let resultsDir = null;
 
-  fetch('Resultats/manifest.json?t=' + Date.now(), { cache: 'no-store' })
-    .then((resp) => {
-      if (!resp.ok) return null;
-      return resp.json();
-    })
-    .then((manifest) => {
-      if (!manifest) {
-        if (errorBox) {
-          errorBox.textContent = 'Aucun chargement automatique: fichier Resultats/manifest.json introuvable. Ajoutez un manifest.json qui liste vos fichiers XML.';
-        }
-        return;
-      }
+  const manifestCandidates = [
+    'Resultats/manifest.json',
+    'resultats/manifest.json',
+  ].map((p) => new URL(p + '?t=' + Date.now(), window.location.href).toString());
+
+  function fetchFirstManifestJson() {
+    return manifestCandidates.reduce((chain, url) => {
+      return chain.catch(() => {
+        return fetch(url, { cache: 'no-store' }).then((resp) => {
+          if (!resp.ok) throw new Error(`manifest non trouvé (${resp.status}) : ${url}`);
+          return resp.json().then((json) => ({ url, json }));
+        });
+      });
+    }, Promise.reject(new Error('no manifest candidates')));
+  }
+
+  fetchFirstManifestJson()
+    .then(({ url, json }) => {
+      const parsed = new URL(url);
+      const path = parsed.pathname || '';
+      resultsDir = path.replace(/\/manifest\.json$/i, '').replace(/\/$/, '');
+      const manifest = json;
 
       const files = Array.isArray(manifest)
         ? manifest
@@ -77,11 +88,14 @@ function initServerXmlLoad() {
 
       return Promise.all(
         fileNames.map((fileName) => {
-          const url = 'Resultats/' + encodeURIComponent(fileName) + '?t=' + Date.now();
-          return fetch(url, { cache: 'no-store' })
+          const xmlUrl = new URL(
+            (resultsDir ? resultsDir + '/' : 'Resultats/') + encodeURIComponent(fileName) + '?t=' + Date.now(),
+            window.location.origin
+          ).toString();
+          return fetch(xmlUrl, { cache: 'no-store' })
             .then((r) => {
               if (!r.ok) {
-                throw new Error(`Échec chargement XML (${r.status}) : ${url}`);
+                throw new Error(`Échec chargement XML (${r.status}) : ${xmlUrl}`);
               }
               return r.text();
             })
@@ -151,7 +165,7 @@ function initServerXmlLoad() {
     })
     .catch(() => {
       if (errorBox) {
-        errorBox.textContent = 'Aucun chargement automatique: impossible de lire Resultats/manifest.json (fichier manquant ou JSON invalide).';
+        errorBox.textContent = 'Aucun chargement automatique: impossible de trouver/lire manifest.json. Vérifiez que Resultats/manifest.json (ou resultats/manifest.json) est bien accessible sur le serveur.';
       }
     });
 }
