@@ -33,6 +33,7 @@ initServerXmlLoad();
 
 function initServerXmlLoad() {
   const parser = new DOMParser();
+  let loadedCount = 0;
 
   fetch('Resultats/manifest.json?t=' + Date.now(), { cache: 'no-store' })
     .then((resp) => {
@@ -79,7 +80,9 @@ function initServerXmlLoad() {
           const url = 'Resultats/' + encodeURIComponent(fileName) + '?t=' + Date.now();
           return fetch(url, { cache: 'no-store' })
             .then((r) => {
-              if (!r.ok) return null;
+              if (!r.ok) {
+                throw new Error(`Échec chargement XML (${r.status}) : ${url}`);
+              }
               return r.text();
             })
             .then((text) => {
@@ -87,10 +90,14 @@ function initServerXmlLoad() {
 
               const xmlDoc = parser.parseFromString(text, 'application/xml');
               const parseError = xmlDoc.getElementsByTagName('parsererror')[0];
-              if (parseError) return;
+              if (parseError) {
+                throw new Error(`XML invalide : ${fileName}`);
+              }
 
               const eventNode = xmlDoc.getElementsByTagName('Event')[0];
-              if (!eventNode) return;
+              if (!eventNode) {
+                throw new Error(`Balise <Event> introuvable : ${fileName}`);
+              }
 
               const eventId = textContent(eventNode, 'Id') || '';
               const eventName = textContent(eventNode, 'Name') || fileName;
@@ -102,14 +109,23 @@ function initServerXmlLoad() {
                 eventName,
                 fileName,
               };
+
+              loadedCount += 1;
             })
-            .catch(() => {});
+            .catch((err) => {
+              console.error(err);
+            });
         })
       );
     })
     .then(() => {
       const keys = Object.keys(globalEvents);
-      if (!keys.length) return;
+      if (!keys.length) {
+        if (errorBox) {
+          errorBox.textContent = 'Aucun fichier XML n\'a pu être chargé depuis Resultats/. Vérifiez que Resultats/manifest.json pointe vers des fichiers existants et accessibles (même casse), et que les XML contiennent bien une balise <Event>.';
+        }
+        return;
+      }
 
       eventSelect.innerHTML = '<option value="">Sélectionnez une course</option>';
       keys.forEach((key) => {
@@ -123,6 +139,10 @@ function initServerXmlLoad() {
       });
 
       eventSelect.disabled = false;
+
+      if (errorBox) {
+        errorBox.textContent = loadedCount ? '' : errorBox.textContent;
+      }
 
       if (keys.length === 1) {
         eventSelect.value = keys[0];
