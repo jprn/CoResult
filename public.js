@@ -461,6 +461,9 @@ function renderFromResultList(xmlDoc) {
 
   // Lancer/mettre à jour les balises
   initBalises();
+
+  // S'assurer que l'auto-scroll est actif après chaque rendu (initial + refresh)
+  startAutoScroll();
 }
 
 // ------------------------
@@ -497,7 +500,10 @@ function startAutoScroll() {
   const step = 1; // pixels
   const interval = 40; // ms
 
-  if (autoScrollIntervalId) return;
+  if (autoScrollIntervalId) {
+    clearInterval(autoScrollIntervalId);
+    autoScrollIntervalId = null;
+  }
   autoScrollIntervalId = setInterval(() => {
     const maxScroll = inner.scrollHeight - container.clientHeight;
     if (maxScroll <= 0) return;
