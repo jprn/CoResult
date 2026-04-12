@@ -40,7 +40,12 @@ function initServerXmlLoad() {
       return resp.json();
     })
     .then((manifest) => {
-      if (!manifest) return;
+      if (!manifest) {
+        if (errorBox) {
+          errorBox.textContent = 'Aucun chargement automatique: fichier Resultats/manifest.json introuvable. Ajoutez un manifest.json qui liste vos fichiers XML.';
+        }
+        return;
+      }
 
       const files = Array.isArray(manifest)
         ? manifest
@@ -53,7 +58,12 @@ function initServerXmlLoad() {
         .map((x) => x.trim())
         .filter(Boolean);
 
-      if (!fileNames.length) return;
+      if (!fileNames.length) {
+        if (errorBox) {
+          errorBox.textContent = 'Aucun chargement automatique: Resultats/manifest.json ne contient aucun nom de fichier XML.';
+        }
+        return;
+      }
 
       globalEvents = {};
       globalClassResults = [];
@@ -119,7 +129,11 @@ function initServerXmlLoad() {
         handleEventChange();
       }
     })
-    .catch(() => {});
+    .catch(() => {
+      if (errorBox) {
+        errorBox.textContent = 'Aucun chargement automatique: impossible de lire Resultats/manifest.json (fichier manquant ou JSON invalide).';
+      }
+    });
 }
 
 function handleFileSelect(e) {
