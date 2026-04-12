@@ -29,6 +29,99 @@ if (validateAdminBtn) {
   validateAdminBtn.addEventListener('click', onValidateAdminClick);
 }
 
+initServerXmlLoad();
+
+function initServerXmlLoad() {
+  const parser = new DOMParser();
+
+  fetch('Resultats/manifest.json?t=' + Date.now(), { cache: 'no-store' })
+    .then((resp) => {
+      if (!resp.ok) return null;
+      return resp.json();
+    })
+    .then((manifest) => {
+      if (!manifest) return;
+
+      const files = Array.isArray(manifest)
+        ? manifest
+        : Array.isArray(manifest.files)
+          ? manifest.files
+          : [];
+
+      const fileNames = files
+        .map((x) => (typeof x === 'string' ? x : ''))
+        .map((x) => x.trim())
+        .filter(Boolean);
+
+      if (!fileNames.length) return;
+
+      globalEvents = {};
+      globalClassResults = [];
+      eventSelect.innerHTML = '<option value="">Sélectionnez une course</option>';
+      eventSelect.disabled = true;
+      categorySelect.disabled = true;
+      clubSelect.disabled = true;
+      resultsContainer.innerHTML = '<div class="no-results">Aucune course sélectionnée pour le moment.</div>';
+      eventInfoContainer.style.display = 'none';
+
+      return Promise.all(
+        fileNames.map((fileName) => {
+          const url = 'Resultats/' + encodeURIComponent(fileName) + '?t=' + Date.now();
+          return fetch(url, { cache: 'no-store' })
+            .then((r) => {
+              if (!r.ok) return null;
+              return r.text();
+            })
+            .then((text) => {
+              if (!text) return;
+
+              const xmlDoc = parser.parseFromString(text, 'application/xml');
+              const parseError = xmlDoc.getElementsByTagName('parsererror')[0];
+              if (parseError) return;
+
+              const eventNode = xmlDoc.getElementsByTagName('Event')[0];
+              if (!eventNode) return;
+
+              const eventId = textContent(eventNode, 'Id') || '';
+              const eventName = textContent(eventNode, 'Name') || fileName;
+              const key = eventId || fileName;
+
+              globalEvents[key] = {
+                xmlDoc,
+                eventId,
+                eventName,
+                fileName,
+              };
+            })
+            .catch(() => {});
+        })
+      );
+    })
+    .then(() => {
+      const keys = Object.keys(globalEvents);
+      if (!keys.length) return;
+
+      eventSelect.innerHTML = '<option value="">Sélectionnez une course</option>';
+      keys.forEach((key) => {
+        const info = globalEvents[key];
+        const labelId = info.eventId || '(sans ID)';
+        const labelName = info.eventName || info.fileName;
+        const opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = `${labelId} – ${labelName}`;
+        eventSelect.appendChild(opt);
+      });
+
+      eventSelect.disabled = false;
+
+      if (keys.length === 1) {
+        eventSelect.value = keys[0];
+        handleEventChange();
+      }
+    })
+    .catch(() => {});
+}
+
 function handleFileSelect(e) {
   errorBox.textContent = '';
   const files = Array.from(e.target.files || []);

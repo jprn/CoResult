@@ -10,31 +10,34 @@ let autoScrollSpeedFactor = 1; // 0.5 = lent, 1 = normal, 2 = rapide
 let autoScrollDirection = 1; // 1 vers le bas, -1 vers le haut
 let balisePaused = false;
 
+let lastXmlText = null;
+let autoScrollIntervalId = null;
+let refreshIntervalId = null;
+let currentLoadAbortController = null;
+
 // ------------------------
 // Initialisation
 // ------------------------
 (() => {
   const params = new URLSearchParams(window.location.search);
-  const fileName = params.get("file");
+  const fileNameFromUrl = params.get("file");
+  const fileNameFromStorage = window.localStorage
+    ? window.localStorage.getItem("publicResultsFile")
+    : null;
+  const fileName = fileNameFromUrl || fileNameFromStorage;
+
+  if (fileNameFromUrl && window.localStorage) {
+    window.localStorage.setItem("publicResultsFile", fileNameFromUrl);
+  }
+
   if (!fileName) {
     resultsContainer.innerHTML =
-      '<div class="no-results">Aucun fichier de course spécifié.</div>';
+      '<div class="no-results">Aucun fichier de course spécifié. Ouvrez un lien du type <code>public.html?file=NomDuFichier.xml</code>.</div>';
     return;
   }
 
-  // Charger le fichier XML depuis /Resultats
-  fetch(`Resultats/${fileName}`)
-    .then((resp) => {
-      if (!resp.ok) throw new Error("Impossible de charger le fichier XML");
-      return resp.text();
-    })
-    .then((text) => {
-      const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(text, "application/xml");
-      const parseError = xmlDoc.getElementsByTagName("parsererror")[0];
-      if (parseError) throw new Error("Fichier XML invalide");
-
-      renderFromResultList(xmlDoc);
+  loadAndRenderXml(fileName, { preserveScroll: false })
+    .then(() => {
       startAutoScroll();
     })
     .catch((err) => {
@@ -42,7 +45,51 @@ let balisePaused = false;
       resultsContainer.innerHTML =
         '<div class="no-results">Erreur de chargement des résultats.</div>';
     });
+
+  if (!refreshIntervalId) {
+    refreshIntervalId = setInterval(() => {
+      loadAndRenderXml(fileName, { preserveScroll: true }).catch((err) => {
+        console.error(err);
+      });
+    }, 60 * 1000);
+  }
 })();
+
+function loadAndRenderXml(fileName, { preserveScroll }) {
+  const container = document.querySelector(".auto-scroll-container");
+  const previousScrollTop = preserveScroll && container ? container.scrollTop : 0;
+
+  if (currentLoadAbortController) currentLoadAbortController.abort();
+  currentLoadAbortController = new AbortController();
+
+  const url = `Resultats/${fileName}?t=${Date.now()}`;
+  return fetch(url, {
+    cache: "no-store",
+    signal: currentLoadAbortController.signal,
+  })
+    .then((resp) => {
+      if (!resp.ok) throw new Error("Impossible de charger le fichier XML");
+      return resp.text();
+    })
+    .then((text) => {
+      if (lastXmlText !== null && text === lastXmlText) {
+        return;
+      }
+
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(text, "application/xml");
+      const parseError = xmlDoc.getElementsByTagName("parsererror")[0];
+      if (parseError) throw new Error("Fichier XML invalide");
+
+      lastXmlText = text;
+      renderFromResultList(xmlDoc);
+
+      if (preserveScroll && container) {
+        const maxScroll = resultsContainer.scrollHeight - container.clientHeight;
+        container.scrollTop = Math.max(0, Math.min(previousScrollTop, maxScroll));
+      }
+    });
+}
 
 // ------------------------
 // Rendu principal
@@ -450,7 +497,8 @@ function startAutoScroll() {
   const step = 1; // pixels
   const interval = 40; // ms
 
-  setInterval(() => {
+  if (autoScrollIntervalId) return;
+  autoScrollIntervalId = setInterval(() => {
     const maxScroll = inner.scrollHeight - container.clientHeight;
     if (maxScroll <= 0) return;
     if (autoScrollSpeedFactor === 0) return;
