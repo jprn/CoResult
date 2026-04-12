@@ -633,7 +633,7 @@ body.public-page {
 
 .auto-scroll-container {
   max-height: 70vh;
-  overflow-y: hidden;
+  overflow-y: auto;
   position: relative;
 }
 
