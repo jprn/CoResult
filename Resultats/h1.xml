@@ -1,0 +1,3999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ResultList>
+<IOFVersion version="2.0.3"/>
+<Event eventForm="IndSingleDay">
+<EventId></EventId>
+<Name>Youth Cup III</Name>
+<EventClassificationId type="other">MeOS</EventClassificationId>
+<StartDate>
+<Date dateFormat="YYYY-MM-DD">2020-03-06</Date>
+<Clock clockFormat="HH:MM:SS">17:00:00</Clock>
+</StartDate>
+</Event>
+<ClassResult>
+<ClassShortName>Easy</ClassShortName>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Bohlin</Family>
+<Given sequence="1">Henrik</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>S-E Bankens IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501034</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:12:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:54:31</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:42:31</Time>
+<ResultPosition>1</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:43</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:26</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:10</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:53</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:37</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:20</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:04</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:47</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Palm</Family>
+<Given sequence="1">Albin</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Markaryds FK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501511</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:18:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:00:40</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:42:40</Time>
+<ResultPosition>2</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:43</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:26</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:10</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:53</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:37</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:20</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:10</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:56</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Persson</Family>
+<Given sequence="1">Hans</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Järnbärarna</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500114</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:06:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:48:48</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:42:48</Time>
+<ResultPosition>3</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:43</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:32</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:15</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:58</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:46</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:29</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:18</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:04</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Stenvall</Family>
+<Given sequence="1">Lisa</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Hästveda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501199</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:00:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:42:55</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:42:55</Time>
+<ResultPosition>4</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:20</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:40</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:00</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:20</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:40</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:57</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:56</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:35</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Öberg</Family>
+<Given sequence="1">Peder</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Haninge SOK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502414</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:14:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:58:45</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:44:45</Time>
+<ResultPosition>5</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:46</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:32</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:19</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:05</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:45</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:32</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:36</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:58</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Johansson</Family>
+<Given sequence="1">Annika</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Horreds SK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501580</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:58:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:43:05</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:45:05</Time>
+<ResultPosition>6</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:59</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:59</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:59</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:59</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:59</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:01</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:01</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:40:05</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Wallgren</Family>
+<Given sequence="1">Lisbeth</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Flundrehof</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502171</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:24:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:11:36</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:47:36</Time>
+<ResultPosition>7</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:38</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:16</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:55</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:33</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:12</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:50</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:29</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:57</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Gabrielsson</Family>
+<Given sequence="1">KG</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>IK Omega</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502003</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:20:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:07:49</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:47:49</Time>
+<ResultPosition>8</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:59</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:11:56</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:55</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:34</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:33</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:32</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:37</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:50</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Davidson</Family>
+<Given sequence="1">Rasmus</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Grisslehamns SK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500541</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:04:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:52:36</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:48:36</Time>
+<ResultPosition>9</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:25</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:50</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:15</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:40</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:02</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:27</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:52</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:10</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Andersson</Family>
+<Given sequence="1">Jonas</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Burseryds IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500707</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:10:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:59:06</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:49:06</Time>
+<ResultPosition>10</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:59</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:58</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:57</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:56</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:55</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:54</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:36:17</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:06</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Falkeby</Family>
+<Given sequence="1">Jakob</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Duveds IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501135</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:32:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:21:18</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:49:18</Time>
+<ResultPosition>11</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:14</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:29</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:44</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:58</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:55</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:10</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:24</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:03</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Jonsson</Family>
+<Given sequence="1">Klara</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>IFK Brattfors</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500275</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:54:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:45:27</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:51:27</Time>
+<ResultPosition>12</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:49</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:39</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:29</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:19</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:09</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:59</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:49</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:46:37</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Morell</Family>
+<Given sequence="1">Måns</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Lycksele IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502670</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:38:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:30:00</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:52:00</Time>
+<ResultPosition>13</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:56</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:33</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:03</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:10</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:07</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:05</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:01</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:03</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Persson</Family>
+<Given sequence="1">Johnny</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>S-E Bankens IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500588</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:46:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:38:15</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:52:15</Time>
+<ResultPosition>14</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:04</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:31</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:36</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:40</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:45</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:49</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:54</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:10</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Björnudd</Family>
+<Given sequence="1">Daniel</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>IK Trenne Ullared</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501761</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:34:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:27:03</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:53:03</Time>
+<ResultPosition>15</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:58</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:56</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:55</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:53</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:52</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:58</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:57</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:48:04</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Lundkvist</Family>
+<Given sequence="1">Anders I</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Järnbärarna</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502574</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:22:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:16:23</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:54:23</Time>
+<ResultPosition>16</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:08</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:16</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:24</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:32</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:02</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:10</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:40:42</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:49:14</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Karlsson</Family>
+<Given sequence="1">Magnus</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Degerfors OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500440</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:30:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:25:56</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:55:56</Time>
+<ResultPosition>17</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:18</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:36</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:54</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:12</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:30</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:31:48</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:06</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:50:38</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Wåhlander</Family>
+<Given sequence="1">Sten-Åke</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Lycksele IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500928</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:48:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:44:41</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:56:41</Time>
+<ResultPosition>18</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:19</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:38</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:57</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:16</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:35</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:31:54</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:13</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:51:21</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Ericsson</Family>
+<Given sequence="1">Amanda</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>IK Trenne Ullared</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501427</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:02:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">1890</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Hagman</Family>
+<Given sequence="1">Annica</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Hästveda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501697</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:56:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">1890</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Enström</Family>
+<Given sequence="1">Hans</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Degerfors OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500822</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:36:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">1890</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Ekman</Family>
+<Given sequence="1">Lennart</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Skogsfalken</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502266</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:50:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">1890</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Fries</Family>
+<Given sequence="1">Per-Erik</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Burseryds IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501857</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:28:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">1890</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Hansson</Family>
+<Given sequence="1">Rebecca</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Lycksele IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>501269</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:52:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">1890</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Blombäck</Family>
+<Given sequence="1">Madelene</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Lycksele IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502436</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:40:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:30:35</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:50:35</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:54</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:49</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:44</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:39</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:34</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:39</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:45:40</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Zachrisson</Family>
+<Given sequence="1">Marie</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Horreds SK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>502129</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:42:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:31:49</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:49:49</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:47</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:11</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:34</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:58</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:22</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:35</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:25</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Westlund</Family>
+<Given sequence="1">Tobias</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Gagnefs OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>500298</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:16:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:01:47</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:45:47</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">1890</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:03</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>42</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:12</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:15</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>37</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>64</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:24</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:27</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:30</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:40:43</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<ClassShortName>Medium</ClassShortName>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Karlsson</Family>
+<Given sequence="1">Göran</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Gagnefs OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503019</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:23:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:09:50</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:46:50</Time>
+<ResultPosition>1</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:39</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:19</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:59</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:39</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:19</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:59</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:39</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:20</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:10</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Johansson</Family>
+<Given sequence="1">Henrik</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Duveds IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503570</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:15:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:02:11</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:47:11</Time>
+<ResultPosition>2</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:18</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:36</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:54</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:16</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:37</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:05</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:49</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:07</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:52</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Arvidsson</Family>
+<Given sequence="1">Charlotte</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Markaryds FK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503598</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:21:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:10:59</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:49:59</Time>
+<ResultPosition>3</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:16</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:33</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:49</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:06</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:23</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:03</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:20</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:00</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:45:42</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Berglund</Family>
+<Given sequence="1">Stig</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>KFUK-KFUM Göteborg</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503219</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:11:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:06:46</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:55:46</Time>
+<ResultPosition>4</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:01</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:03</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:05</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:06</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:08</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:10</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:36:05</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:10</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:50:44</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Göhl</Family>
+<Given sequence="1">Lisbeth</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Njurunda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503317</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:01:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">2400</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Nordin</Family>
+<Given sequence="1">Leif</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Burseryds IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503431</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:03:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:53:24</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:50:24</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:41</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:03</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:54</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:36</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:04</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:45</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:41</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:45:42</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Timbré</Family>
+<Given sequence="1">Slawomir</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Njurunda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503144</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:07:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:54:54</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:47:54</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:49</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:36</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:10</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:57</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:44</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:31</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:18</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:07</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Bernet</Family>
+<Given sequence="1">Veronica</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Njurunda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503835</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:17:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:04:32</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:47:32</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:23</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:47</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:11</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:35</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:22</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:46</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:10</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:08</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Henriksson</Family>
+<Given sequence="1">Fredrik</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Haninge SOK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>503727</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:05:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="DidNotFinish"/>
+<CourseLength unit="m">2400</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:05:06</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:10:12</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:15:18</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:54</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:01</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:07</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:03</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:26</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:49:41</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<ClassShortName>Open Long</ClassShortName>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Pettersson</Family>
+<Given sequence="1">Gustav</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Tjällmo-Godegårds OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505522</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:08:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:04:16</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:56:16</Time>
+<ResultPosition>1</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:19</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:39</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:59</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:18</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:38</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:58</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:17</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:37</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:57</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:16</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:36</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:51:56</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Hammarbäck</Family>
+<Given sequence="1">David</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Gagnefs OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504720</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:26:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:23:09</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:57:09</Time>
+<ResultPosition>2</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:14</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:29</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:44</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:59</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:13</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:28</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:43</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:58</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:12</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:27</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:46:42</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:52:54</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Boström</Family>
+<Given sequence="1">Kjell</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Karlbergs SIF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504431</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:38:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:35:23</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:57:23</Time>
+<ResultPosition>3</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:20</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:41</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:01</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:22</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:42</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:03</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:23</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:44</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:04</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:25</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:54</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:53:02</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Dyrander</Family>
+<Given sequence="1">Roland</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Skogsfalken</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504839</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:16:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:13:25</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:57:25</Time>
+<ResultPosition>4</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:18</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:36</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:54</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:12</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:30</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:48</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:31:06</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:24</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:42</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:00</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:48:33</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:53:06</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Sturek</Family>
+<Given sequence="1">Johan</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>S-E Bankens IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505339</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:14:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:14:09</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:00:09</Time>
+<ResultPosition>5</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:20</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:41</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:02</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:22</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:43</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:40</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:31:00</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:21</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:42</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:02</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:49:55</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:55:48</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Strandlund</Family>
+<Given sequence="1">Yvonne</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Lycksele IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504990</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:22:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:23:14</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:01:14</Time>
+<ResultPosition>6</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:10</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:20</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:30</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:40</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:50</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:00</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:20</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:28</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:05</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:53</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:52:03</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:57:03</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Åkerlund</Family>
+<Given sequence="1">Rebecca</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Markaryds FK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504596</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:00:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:02:15</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:02:15</Time>
+<ResultPosition>7</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:47</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:34</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:21</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:08</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:55</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:42</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:29</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:16</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:03</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:50</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:52:39</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:57:28</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Malmberg</Family>
+<Given sequence="1">Erik</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Gagnefs OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505130</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:06:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:09:25</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:03:25</Time>
+<ResultPosition>8</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:43</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:27</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:11</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:54</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:38</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:22</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:05</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:49</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:33</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:16</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:52:00</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:58:41</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Palmgren</Family>
+<Given sequence="1">Monica</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Bodafors OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504924</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:32:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:37:46</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:05:46</Time>
+<ResultPosition>9</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:23</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:47</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:11</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:35</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:58</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:22</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:46</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:36:36</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:40:59</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:50:10</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:56:10</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">01:01:22</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Pauli</Family>
+<Given sequence="1">Johan</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Tjällmo-Godegårds OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505803</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:20:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:28:53</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:08:53</Time>
+<ResultPosition>10</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">4950</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>57</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:49</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>41</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:39</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>142</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:29</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:19</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>37</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:09</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>60</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:01</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>97</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:51</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>65</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:41</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:31</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>113</ControlCode>
+<Time timeFormat="HH:MM:SS">00:52:21</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>47</ControlCode>
+<Time timeFormat="HH:MM:SS">00:57:11</Time>
+</SplitTime>
+<SplitTime sequence="12">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">01:04:03</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Fröjd</Family>
+<Given sequence="1">Alva</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Burseryds IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505183</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:04:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Hvoslef</Family>
+<Given sequence="1">Anders</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Rodhen</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505269</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:10:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Andersson</Family>
+<Given sequence="1">Astrid</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Hästveda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505722</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:12:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Håkansson</Family>
+<Given sequence="1">Jan</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Bodafors OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504536</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:02:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Johansson</Family>
+<Given sequence="1">Örjan</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Tjällmo-Godegårds OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504198</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:34:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Eriksson</Family>
+<Given sequence="1">Per</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Horreds SK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>504349</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:18:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Alenbring</Family>
+<Given sequence="1">Sebastian</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>S-E Bankens IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>505550</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:30:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">4950</CourseLength>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<ClassShortName>Open Short</ClassShortName>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Andersson</Family>
+<Given sequence="1">Marie</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Grisslehamns SK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506512</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:14:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:04:01</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:50:01</Time>
+<ResultPosition>1</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:08</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:17</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:26</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:35</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:53</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:02</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:11</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:20</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:29</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:41:41</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:45:52</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Tynell</Family>
+<Given sequence="1">Vidar</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Stigen</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506896</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:00:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:51:22</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:51:22</Time>
+<ResultPosition>2</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:03</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:06</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:09</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:12</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:15</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:24:18</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:28:21</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:24</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:37:22</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:39</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:19</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Mårtensson</Family>
+<Given sequence="1">Kristina</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Smedsbyns IF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506276</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:24:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:15:31</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:51:31</Time>
+<ResultPosition>3</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:16</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:32</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:49</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:05</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:22</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:38</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:54</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:11</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:27</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:48</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:14</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Berglund</Family>
+<Given sequence="1">Pär</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Skogsfalken</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507749</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:38:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:30:45</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:52:45</Time>
+<ResultPosition>4</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:07</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:47</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:54</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:02</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:09</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:16</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:23</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:26</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:33</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:35</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:48:37</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Lindholm</Family>
+<Given sequence="1">Jessica</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Skogsfalken</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506801</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:12:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:07:22</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:55:22</Time>
+<ResultPosition>5</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:05</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:10</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:16</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:19:29</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:35</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:40</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:31:45</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:51</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:41:30</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:45:36</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:51:16</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Stolt</Family>
+<Given sequence="1">Kenneth</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Ankarsrums OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507225</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:02:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">18:57:22</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:55:22</Time>
+<ResultPosition>5</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:35</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:11</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:47</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:23</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:59</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:35</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:32:11</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:36:52</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:41:28</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:46:06</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:50:46</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Normark</Family>
+<Given sequence="1">Kerstin</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Ankarsrums OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507322</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:08:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:04:46</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:56:46</Time>
+<ResultPosition>7</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:25</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:51</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:17</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:43</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:09</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:10</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:36</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:02</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:48</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:47:20</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:52:20</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Malmborg</Family>
+<Given sequence="1">Bo</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>KFUK-KFUM Göteborg</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506118</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:26:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:23:58</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:57:58</Time>
+<ResultPosition>8</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:12</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:24</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:22</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:20:34</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:39</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:31:48</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:36:09</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:40:21</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:33</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:49:09</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:53:45</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Nero</Family>
+<Given sequence="1">Ulf</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>IK Trenne Ullared</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506306</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:30:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:28:15</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:58:15</Time>
+<ResultPosition>9</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:06:31</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:11:02</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:16:33</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:44</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:26:15</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:47</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:18</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:49</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:20</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:48:51</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:53:43</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Wiberg</Family>
+<Given sequence="1">Nils</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Haninge SOK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506723</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:28:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:26:53</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:58:53</Time>
+<ResultPosition>10</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:33</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:06</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:39</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:13</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:22:46</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:19</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:33:59</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:54</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:43:44</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:49:16</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:54:19</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Taxell</Family>
+<Given sequence="1">Tilda</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>IFK Brattfors</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507609</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:34:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:33:09</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">00:59:09</Time>
+<ResultPosition>11</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:17</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:08:35</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:12:53</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:17:11</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:21:29</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:25:47</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:30:05</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:23</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:38:41</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:42:59</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:54:51</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Larsson</Family>
+<Given sequence="1">Ina</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>OK Järnbärarna</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507498</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:18:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:19:02</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:01:02</Time>
+<ResultPosition>12</ResultPosition>
+<CompetitorStatus value="OK"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:37</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:14</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:13:51</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time timeFormat="HH:MM:SS">00:18:28</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:05</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:27:43</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:35:08</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:45</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:22</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:48:59</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:56:24</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Edling</Family>
+<Given sequence="1">Ann-Kristin</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Njurunda OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507453</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:32:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">3780</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Jansson</Family>
+<Given sequence="1">Marcus</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Hallstahammars OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506477</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:04:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">3780</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Liljenrud</Family>
+<Given sequence="1">Rickard</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Svanesunds GIF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>506600</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:36:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">3780</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Höök</Family>
+<Given sequence="1">Vidar</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Bodafors OK</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507096</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:10:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">--:--:--</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">--:--:--</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="Inactive"/>
+<CourseLength unit="m">3780</CourseLength>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person>
+<PersonId/>
+<PersonName>
+<Family>Ruderfors</Family>
+<Given sequence="1">Yngve</Given>
+</PersonName>
+</Person>
+<Club>
+<ClubId/>
+<ShortName>Karlbergs SIF</ShortName>
+</Club>
+<Result>
+<CCard>
+<CCardId>507026</CCardId>
+</CCard>
+<StartTime>
+<Clock clockFormat="HH:MM:SS">18:20:00</Clock>
+</StartTime>
+<FinishTime>
+<Clock clockFormat="HH:MM:SS">19:20:41</Clock>
+</FinishTime>
+<Time timeFormat="HH:MM:SS">01:00:41</Time>
+<ResultPosition></ResultPosition>
+<CompetitorStatus value="MisPunch"/>
+<CourseLength unit="m">3780</CourseLength>
+<SplitTime sequence="1">
+<ControlCode>63</ControlCode>
+<Time timeFormat="HH:MM:SS">00:04:47</Time>
+</SplitTime>
+<SplitTime sequence="2">
+<ControlCode>87</ControlCode>
+<Time timeFormat="HH:MM:SS">00:09:35</Time>
+</SplitTime>
+<SplitTime sequence="3">
+<ControlCode>95</ControlCode>
+<Time timeFormat="HH:MM:SS">00:14:23</Time>
+</SplitTime>
+<SplitTime sequence="4">
+<ControlCode>80</ControlCode>
+<Time>--:--:--</Time>
+</SplitTime>
+<SplitTime sequence="5">
+<ControlCode>50</ControlCode>
+<Time timeFormat="HH:MM:SS">00:23:58</Time>
+</SplitTime>
+<SplitTime sequence="6">
+<ControlCode>94</ControlCode>
+<Time timeFormat="HH:MM:SS">00:29:17</Time>
+</SplitTime>
+<SplitTime sequence="7">
+<ControlCode>150</ControlCode>
+<Time timeFormat="HH:MM:SS">00:34:05</Time>
+</SplitTime>
+<SplitTime sequence="8">
+<ControlCode>76</ControlCode>
+<Time timeFormat="HH:MM:SS">00:39:45</Time>
+</SplitTime>
+<SplitTime sequence="9">
+<ControlCode>92</ControlCode>
+<Time timeFormat="HH:MM:SS">00:44:32</Time>
+</SplitTime>
+<SplitTime sequence="10">
+<ControlCode>43</ControlCode>
+<Time timeFormat="HH:MM:SS">00:49:20</Time>
+</SplitTime>
+<SplitTime sequence="11">
+<ControlCode>100</ControlCode>
+<Time timeFormat="HH:MM:SS">00:55:53</Time>
+</SplitTime>
+</Result>
+</PersonResult>
+</ClassResult>
+</ResultList>
